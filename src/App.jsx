@@ -4,6 +4,7 @@ import { Home, AboutPage, Contact, Blog, FreelanceDeveloper, FreelanceTutor, Not
 import Header from "./components/Header/index";
 import Footer from "./components/Footer/index";
 import './App.css'
+
 const App = () => {
   return (
     <Router>
