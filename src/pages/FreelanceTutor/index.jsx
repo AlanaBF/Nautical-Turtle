@@ -1,8 +1,6 @@
 import React from "react";
 import "../../assets/styles/pages.css";
 
-import image from "../../assets/images/tutor-logo.png"
-
 function FreelanceTutor() {
   return (
     <div className="pageBackground">

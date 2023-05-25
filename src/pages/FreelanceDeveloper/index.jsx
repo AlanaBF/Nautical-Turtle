@@ -1,6 +1,5 @@
 import React from "react";
 import "../../assets/styles/pages.css";
-import image from "../../assets/images/web-logo.png";
 
 function FreelanceDeveloper() {
   return (
