@@ -1,0 +1,29 @@
+[
+    {
+        "key": "1",
+        "id": "1",
+        "name": "Continuing my learning journey",
+        "date": "21/5/2023",
+        "image": "https://alanabf-blog.vercel.app/images/IMG_2566.jpeg",
+        "postText": "I am genuinely content with life at the moment, and finding a job that aligns with my passion and brings me immense joy would be the icing on the cake. The search continues, and I remain optimistic about discovering the perfect opportunity that will allow me to thrive.",
+        "blogLink": "https://alanabf-blog.vercel.app/posts/learning-journey"
+    },
+       {
+        "key": "2",
+        "id": "2",
+        "name": "Always Learning!",
+        "date": "10/5/2023",
+        "image": "https://drive.google.com/uc?export=view&id=1t9W16vxIP6LZuFk2apTr6ztBbEzfVrTV",
+        "postText": "As a teacher, I have always strived to share my passion for learning through the lessons I teach. Now, as I embark on a career change journey, I am actively demonstrating my own enthusiasm for continuous learning.",
+        "blogLink": "https://alanabf-blog.vercel.app/posts/always-learning"
+    },
+    {
+        "key": "3",
+        "id": "3",
+        "name": "First Blog Post Ever!",
+        "date": "27/4/2023",
+        "image": "https://drive.google.com/uc?export=view&id=1Rygy3O8qXt2YB7EbmCK9Sqpzsva0wTGp",
+        "postText": "Welcome to my blog! Here, I will document my journey as I transition from teaching to becoming a Front End Web Developer in the exciting world of technology.",
+        "blogLink": "https://alanabf-blog.vercel.app/posts/first-blog"
+    }
+]
