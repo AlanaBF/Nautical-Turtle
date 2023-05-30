@@ -8,6 +8,17 @@
   margin: 0;
 }
 
+.underConstruction {
+  border: solid 10px var(--dark-blue);
+  border-radius: 10px;
+  height: 200px;
+  justify-content: center;
+ font-size: 5em;
+ color: red;
+ background-color: paleturquoise;
+ margin-top: 20px;
+}
+
 /* Home Page */
 
 .businessLogo {

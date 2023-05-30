@@ -4,7 +4,8 @@ import "../../assets/styles/pages.css";
 function FreelanceTutor() {
   return (
     <div className="pageBackground">
-     
+           <div className="underConstruction">SITE UNDER CONSTRUCTION</div>
+
       <div className="freelanceWhiteSection">
         <h2 className="freelanceAboutText">About Me</h2>
         <p className="freelanceAboutText">

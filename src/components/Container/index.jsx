@@ -7,10 +7,6 @@ function ContainerIntro() {
   return (
     <Container fluid>
       <Row>
-        <Col xs={12} md={6}> ENTER SITE </Col>
-        <Col xs={12} md={6}> ENTER SITE </Col>
-      </Row>
-      <Row>
         <Col xs={12} md={6}>  <Button className="webLinkButton" href="">Portfolio Web Designer</Button>{' '}</Col>
         <Col xs={12} md={6}>  <Button className="webLinkButton">Maths Tutor (KS2, KS3, KS4)</Button>{' '}</Col>
       </Row>
