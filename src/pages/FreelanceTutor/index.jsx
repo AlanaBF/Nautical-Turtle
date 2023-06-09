@@ -4,10 +4,8 @@ import "../../assets/styles/pages.css";
 function FreelanceTutor() {
   return (
     <div className="pageBackground">
-           <div className="underConstruction">SITE UNDER CONSTRUCTION</div>
-
       <div className="freelanceWhiteSection">
-        <h2 className="freelanceAboutText">About Me</h2>
+        <h2 className="freelanceAboutText">Freelance Tutoring</h2>
         <p className="freelanceAboutText">
           I have been a teacher for 20 years... As I move away from teaching in
           the traditional education setting and into Web Development, I would

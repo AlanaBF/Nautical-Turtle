@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Home, AboutPage, Contact, Blog, FreelanceDeveloper, FreelanceTutor, NotFound } from "./pages";
+import { Home, Contact, Blog, FreelanceDeveloper, FreelanceTutor, NotFound } from "./pages";
 import Header from "./components/Header/index";
 import Footer from "./components/Footer/index";
 import './App.css'
@@ -14,7 +14,6 @@ const App = () => {
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/AboutPage" element={<AboutPage />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Blog" element={<Blog />} />
           <Route path="/FreelanceDeveloper" element={<FreelanceDeveloper />} />

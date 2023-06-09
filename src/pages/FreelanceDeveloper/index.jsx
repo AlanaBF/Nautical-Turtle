@@ -4,10 +4,8 @@ import "../../assets/styles/pages.css";
 function FreelanceDeveloper() {
   return (
     <div className="pageBackground">
-          <div className="underConstruction">SITE UNDER CONSTRUCTION</div>
-
       <div className="freelanceWhiteSection">
-        <h2 className="freelanceAboutText">About Me</h2>
+        <h2 className="freelanceAboutText">Freelance Web Development</h2>
         <p className="freelanceAboutText">
           Creating websites for small businesses and startups with user friendly
           design and engaging experiences for their clients.

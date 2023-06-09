@@ -8,18 +8,6 @@
   margin: 0;
 }
 
-.underConstruction {
-  border: solid 10px var(--dark-blue);
-  border-radius: 10px;
-  height: 200px;
-  justify-content: center;
- font-size: 200%;
- color: red;
- background-color: paleturquoise;
- margin-top: 20px;
- padding-top: 30px;
-}
-
 /* Home Page */
 
 .businessLogo {
@@ -32,7 +20,6 @@
   border-radius: 50px;
   margin-top: 20px;
 }
-
 /* Freelance Web Dev and Tutor Pages */
 
 .webImage {
@@ -41,18 +28,7 @@
   margin: 0 auto;
 }
 
-/* .freelanceAboutMe {
-   
-    
-  } */
-
-/* .freelanceAboutText {
-    color: var(--dark-blue);
-  }
-  
-  .freelanceServicesText, .freelancePricesText {
-    color: var(--light-blue);
-  } */
+/* Freelance Pages */
 
 .freelanceColorSection,
 .freelanceWhiteSection,
@@ -61,22 +37,6 @@
   margin: 1% 5%;
   padding: 1%;
 }
-
-/* .freelanceColorSection {
-    background-color: var(--dark-blue);
-    border: 10px solid var(--light-blue);
-    color: var(--light-blue) !important;
-  }
-  
-  .freelanceWhiteSection {
-    background-color: var(--light-blue);
-    border: 10px solid var(--dark-blue);
-  }
-  
-  .freelanceDarkSection {
-    background-color: var(--navy-blue);
-    border: 10px solid var(--dark-blue);
-  } */
 
 /* Freelance Tutor Page */
 
@@ -167,7 +127,7 @@ span {
 
 .contactMeForm {
   width: 80%;
-border: solid 10px var(--dark-blue);
+  border: solid 10px var(--dark-blue);
   margin: auto;
   border-radius: 60px;
   padding: 10px;
@@ -217,10 +177,6 @@ border: solid 10px var(--dark-blue);
 .notFoundPageContent span {
   font-size: 2rem;
 }
-
-/* .notFoundPageContent a {
-  
-  } */
 
 .notFoundPageContent img {
   display: flex;

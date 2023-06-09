@@ -28,9 +28,6 @@ function Header() {
             <LinkContainer to="/">
               <Nav.Link className="navLink">Home</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/AboutPage">
-                <Nav.Link className="navLink">About</Nav.Link>
-              </LinkContainer>
             {/* Freelance Work */}
            <LinkContainer to="/freelanceDeveloper">
                 <Nav.Link className="navLink">Website Design Services</Nav.Link>
@@ -38,7 +35,6 @@ function Header() {
               <LinkContainer to="/freelanceTutor">
                 <Nav.Link className="navLink">Tutor Services</Nav.Link>
               </LinkContainer>
-           
             {/* Blog Page */}
             <LinkContainer to="/Blog">
               <Nav.Link className="navLink">Blog</Nav.Link>

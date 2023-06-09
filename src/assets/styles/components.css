@@ -5,7 +5,6 @@
   height: 100% !important;
   font-size: 1rem !important;
   background-color: var(--dark-blue);
-
   justify-content: space-around !important;
 }
 
@@ -19,7 +18,7 @@
 
 .navbarIcons {
   font-size: 2rem !important;
-  color: var(--pale-green);
+  color: var(--pale-green) !important;
   padding: 10px;
 }
 
@@ -177,10 +176,10 @@ border: solid 10px var(--dark-blue) !important;
 
 .footer {
   width: 100%;
-
+background-color: var(--dark-blue);
   font-size: 1rem !important;
   text-align: center;
   padding: 1rem;
-
+color: var(--pale-green);
   margin: 0;
 }
