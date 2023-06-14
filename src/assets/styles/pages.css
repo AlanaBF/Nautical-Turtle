@@ -39,25 +39,6 @@
   border: solid 10px var(--teal) !important;
 }
 
-/* Freelance Pages */
-
-.freelanceColorSection,
-.freelanceWhiteSection,
-.freelanceDarkSection {
-  border-radius: 10px;
-  margin: 1% 5%;
-  padding: 1%;
-}
-
-/* Freelance Tutor Page */
-
-.tutorImage {
-  display: flex;
-  height: 300px;
-  margin: auto;
-  border-radius: 20px;
-}
-
 /* Blog Page Styles */
 .galleryPageCard {
   display: flex;
