@@ -74,11 +74,11 @@ a {
     margin-bottom: 1%;
     padding: 1rem;
     font-style: italic;
-    color: rgb(5, 85, 146);
+    color: var(--dark-blue);
   }
 
   .text {
-    color: rgb(5, 85, 146) !important;
+    color: var(--dark-blue) !important;
     font-size: 70%;
     text-align: center;
     background-color: white;
@@ -87,14 +87,14 @@ a {
   }
 
   .myname {
-    color: rgb(5, 85, 146) !important;
+    color: var(--dark-blue) !important;
     text-align: center;
     font-size: 100%;
   }
 
   .brand {
     text-align: center;
-    color: rgb(5, 85, 146) !important;
+    color: var(--dark-blue) !important;
     font-size: 100%;
   }
 }
@@ -104,14 +104,14 @@ a {
     width: 20%;
     height: 30%;
     border-radius: 50px;
-    border: solid rgb(5, 85, 146) 5px;
+    border: solid var(--dark-blue) 5px;
   }
 }
 
 @media (max-width: 545px) {
   .contactMeForm {
     width: 100%;
-    background-color: rgb(5, 85, 146) !important;
+    background-color:var(--dark-blue) !important;
     margin: auto;
     border-radius: 40px;
     padding: 2px;
@@ -121,25 +121,25 @@ a {
     height: auto;
     background: #caf0f8;
     border-radius: 5%;
-    border: 1rem solid rgb(5, 85, 156);
+    border: 1rem solid var(--dark-blue);
   }
 
   .cardBodyText {
     font-size: 100%;
     height: auto;
-    border-top: 1rem solid rgb(5, 85, 156);
+    border-top: 1rem solid var(--dark-blue);
   }
 
   .cardBodyLinks {
     font-size: 100%;
     height: auto;
-    border-top: 1rem solid rgb(5, 85, 156);
+    border-top: 1rem solid var(--dark-blue);
   }
 
   .profilePic {
     width: 30%;
     height: 50%;
     border-radius: 50px;
-    border: solid rgb(5, 85, 146) 5px;
+    border: solid var(--dark-blue) 5px;
   }
 }
