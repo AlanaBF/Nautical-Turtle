@@ -15,15 +15,15 @@ function Contact() {
         or email me direct: alanabarrettfrew@gmail.com
       </p>
       <span className="buttonGroup">
-        <a href="https://twitter.com/AlanaBF81" aria-label="Twitter">
+        <a href="https://twitter.com/AlanaBF81" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
           <i className="fa fa-twitter" aria-hidden="true"></i>
         </a>
-        <a href="https://github.com/AlanaBF" aria-label="GitHub">
+        <a href="https://github.com/AlanaBF" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
           <i className="fa fa-github" aria-hidden="true"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/alanabarrettfrew"
-          aria-label="LinkedIn"
+          aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"
         >
           <i className="fa fa-linkedin" aria-hidden="true"></i>
         </a>
