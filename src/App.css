@@ -115,6 +115,7 @@ a {
     margin: auto;
     border-radius: 40px;
     padding: 2px;
+    color: var(--pale-green);
   }
   .card {
     width: 100%;
@@ -122,18 +123,21 @@ a {
     background: #caf0f8;
     border-radius: 5%;
     border: 1rem solid var(--dark-blue);
+    color: var(--pale-green);
   }
 
   .cardBodyText {
     font-size: 100%;
     height: auto;
     border-top: 1rem solid var(--dark-blue);
+    color: var(--pale-green);
   }
 
   .cardBodyLinks {
     font-size: 100%;
     height: auto;
     border-top: 1rem solid var(--dark-blue);
+    color: var(--pale-green);
   }
 
   .profilePic {
