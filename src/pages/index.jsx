@@ -4,11 +4,13 @@ import Blog from "./Blog";
 import FreelanceDeveloper from "./FreelanceDeveloper";
 import FreelanceTutor from "./FreelanceTutor";
 import NotFound from "./NotFound";
+import ProfessionalGallery from "./ProfessionalProjects";
 
 
 export {
   Blog,
   Contact,
+  ProfessionalGallery,
   FreelanceDeveloper,
   FreelanceTutor,
   Home,

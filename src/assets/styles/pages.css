@@ -27,6 +27,17 @@
   height: 400px;
   margin: 0 auto;
 }
+.contact-button {
+  color: var(--pale-green) !important;
+  background-color: var(--dark-blue) !important;
+  border: solid 10px var(--dark-blue) !important;
+  border-radius: 10px;
+}
+.contact-button:hover {
+  color: var(--pale-green) !important;
+  background-color: var(--teal) !important;
+  border: solid 10px var(--teal) !important;
+}
 
 /* Freelance Pages */
 
@@ -47,6 +58,12 @@
   border-radius: 20px;
 }
 
+/* Blog Page Styles */
+.galleryPageCard {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
 /* Blog Page Styles */
 
 .backgroundBlogPicture {

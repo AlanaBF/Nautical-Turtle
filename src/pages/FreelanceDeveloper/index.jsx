@@ -1,10 +1,10 @@
 import React from "react";
 import "../../assets/styles/pages.css";
-
+import { Link } from "react-router-dom";
 function FreelanceDeveloper() {
   return (
     <div className="pageBackground">
-      <div className="freelanceWhiteSection">
+      <div>
         <h2 className="freelanceAboutText">Freelance Web Development</h2>
         <p className="freelanceAboutText">
           Creating websites for small businesses and startups with user friendly
@@ -19,21 +19,34 @@ function FreelanceDeveloper() {
           a 6 month support package to help with any potential issues or tweaks
           you may wish to make.
         </p>
-      </div>
-      <div className="freelanceColorSection">
-        <h2>Services Available</h2>
-        <p className="freelanceServicesText">Website Build from scratch</p>
-        <p className="freelanceServicesText">Website redesign and update</p>
-        <p className="freelanceServicesText">Follow up support package</p>
         <p className="freelanceServicesText">
-          Every website design and build will be unique for every client so a
-          bespoke package can also be arranged. Get in touch to discuss your
-          needs further.
-        </p>
+        Every website design and build will be unique for every client so a
+        bespoke package can also be arranged. Get in touch to discuss your needs
+        further.
+      </p>
+      <Link to="/Contact">
+        <button className="contact-button">Contact Me</button>
+      </Link>
       </div>
-      <div className="freelanceDarkSection">
-        <h3 className="freelancePricesText">Prices Available on Request</h3>
-      </div>
+      <hr/>
+      <div>
+        <h2>Services Available</h2>
+        <p className="freelanceServicesText">Website Build from scratch standard package £200</p>
+        <li>Delivery Time 5 days</li>
+        <li>Functional easy to use website</li>
+        <li>Home, Service Provided, Contact Page with map</li>
+        <li>Content upload</li>
+        <li>Social media icons</li>
+        <li>Unlimited revision until final handover</li>
+        <li>Mobile Responsive</li>
+        <li>Header with links to pages and Footer</li>
+        <li>Domain Name and secure SSH certificate</li>
+      </div>   
+
+      <hr/>
+      <h3 className="freelancePricesText">Also available:</h3>
+      <h5 className="freelanceServicesText">Website redesign and update</h5>
+      <h5 className="freelanceServicesText">Follow up support package</h5>
     </div>
   );
 }

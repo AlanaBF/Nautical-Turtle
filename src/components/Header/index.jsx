@@ -32,6 +32,10 @@ function Header() {
            <LinkContainer to="/freelanceDeveloper">
                 <Nav.Link className="navLink">Website Design Services</Nav.Link>
               </LinkContainer>
+                 {/* Professional Page */}
+            <LinkContainer to="/professionalGallery">
+              <Nav.Link className="navLink">Professional Gallery</Nav.Link>
+            </LinkContainer>
               <LinkContainer to="/freelanceTutor">
                 <Nav.Link className="navLink">Tutor Services</Nav.Link>
               </LinkContainer>

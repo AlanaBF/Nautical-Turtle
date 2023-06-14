@@ -12,9 +12,7 @@ function Contact() {
         <br />
         or click on one of the links
         <br />
-        or email me direct @:
-        <br />
-        alanabarrett-frew@hotmail.com
+        or email me direct: alanabarrettfrew@gmail.com
       </p>
       <span className="buttonGroup">
         <a href="https://twitter.com/AlanaBF81" aria-label="Twitter">

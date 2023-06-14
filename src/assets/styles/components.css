@@ -52,6 +52,9 @@
   color: var(--pale-green) !important;
   background-color: var(--dark-blue) !important;
   border: solid 10px var(--dark-blue) !important;
+    width: 300px; /* Adjust the width as desired */
+    height: 80px; /* Adjust the height as desired */
+    margin: 10px;
 }
 
 .webLinkButton:hover {
@@ -59,6 +62,63 @@
   background-color: var(--teal) !important;
   border: solid 10px var(--teal) !important;
 }
+/* ProjectCard Component */
+
+.galleryCard {
+  width: 36rem !important;
+  background: var(--light-blue) !important;
+  border: 1rem solid var(--dark-blue) !important;
+  margin: 1% !important;
+}
+
+.cardImagePosition {
+  display: flex;
+}
+
+.professionalCardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.cardImg {
+  width: 100%;
+  height: 100%;
+  object-fit: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+} 
+
+.cardBodyText {
+  font-size: 1em !important;
+  height: 60%;
+  border-top: 1rem solid var(--dark-blue);
+}
+
+.cardBodyTitle {
+  font-size: 1em !important;
+  color: var(--dark-blue);
+  text-decoration: underline;
+}
+
+.cardBodyLinks {
+  font-size: 1em !important;
+  height: 40%;
+  border-top: 1rem solid var(--dark-blue);
+}
+
+.galleryCardLink, .galleryAnchorTag {
+  font-size: 1em !important;
+  line-height: 1 !important;
+  color: var(--dark-blue);
+}
+
+.galleryText {
+  font-size: 1em !important;
+  color: var(--dark-blue);
+} 
 
 /* Blog Component */
 
@@ -139,7 +199,6 @@ border: solid 10px var(--dark-blue) !important;
   text-align: center !important;
   justify-content: center !important;
   align-items: center !important;
-
   font-weight: bold !important;
   font-size: 100% !important;
   width: 40% !important;
@@ -164,7 +223,6 @@ border: solid 10px var(--dark-blue) !important;
 .messageLabel {
   margin: auto;
   display: flex;
-
   font-weight: bold;
   font-size: 1rem;
   text-align: center;

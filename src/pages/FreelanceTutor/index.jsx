@@ -1,10 +1,10 @@
 import React from "react";
 import "../../assets/styles/pages.css";
-
+import { Link } from "react-router-dom";
 function FreelanceTutor() {
   return (
     <div className="pageBackground">
-      <div className="freelanceWhiteSection">
+      <div>
         <h2 className="freelanceAboutText">Freelance Tutoring</h2>
         <p className="freelanceAboutText">
           I have been a teacher for 20 years... As I move away from teaching in
@@ -26,7 +26,11 @@ function FreelanceTutor() {
         </p>
         <p className="freelanceAboutText">Other subjects available on request</p>
       </div>
-      <div className="freelanceColorSection">
+      <Link to="/Contact">
+        <button className="contact-button">Contact Me</button>
+      </Link>
+      <hr/>
+      <div >
         <h2 className="freelanceServicesText">Services Available</h2>
         <p className="freelanceServicesText">Remote Tutoring</p>
         <p className="freelanceServicesText">Group Tutoring</p>
@@ -49,7 +53,8 @@ function FreelanceTutor() {
           student. Get in touch to discuss your needs further.
         </p>
       </div>
-      <div className="freelanceDarkSection">
+      <hr/>
+      <div>
         <h3 className="freelancePricesText">Prices</h3>
         <p className="freelancePricesText">£20 per person per hour for Small Group</p>
         <p className="freelancePricesText">£25 per hour 1-1 Remote</p>
