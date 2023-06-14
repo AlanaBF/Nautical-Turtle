@@ -1,6 +1,9 @@
 import React from "react";
 import "../../assets/styles/pages.css";
 import { Link } from "react-router-dom";
+import professional from "../../components/ProfessionalProjects/professional.json"; // Make sure the import path is correct
+import ProfessionalProjectCard from "../../components/ProfessionalProjects";
+import Testimonials from "../../components/Testimonials";
 function FreelanceDeveloper() {
   return (
     <div className="pageBackground">
@@ -47,6 +50,17 @@ function FreelanceDeveloper() {
       <h3 className="freelancePricesText">Also available:</h3>
       <h5 className="freelanceServicesText">Website redesign and update</h5>
       <h5 className="freelanceServicesText">Follow up support package</h5>
+<hr/>
+      <h1 className="galleryPageTitle">Professional Portfolio</h1>
+      <div className="galleryPageCard">
+        {professional.map((project) => (
+          <ProfessionalProjectCard key={project.id} project={project} />
+        ))}
+      </div>
+      <div>
+      <hr/>
+      <Testimonials/>
+      </div>
     </div>
   );
 }

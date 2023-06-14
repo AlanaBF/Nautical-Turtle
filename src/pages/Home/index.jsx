@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className="pageBackground">
       <div>
-        <h1 class="homePageTitle">Nautical Turtle</h1>
+        <h1 className="homePageTitle">Nautical Turtle</h1>
         </div> 
         <About />
         <br/>
