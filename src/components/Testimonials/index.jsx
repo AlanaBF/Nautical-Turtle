@@ -1,10 +1,11 @@
 import React from "react";
+import "../../assets/styles/components.css"
 
 function Testimonials() {
   return (
-    <div>
-      <h1>Testimonials</h1>
-      <p>
+    <div><h1 className="TestimonialsPageTitle">Testimonials</h1>
+    <div className="TestimonialsPageText">
+      <p >
         <em>
           "Our new website now up and running!! please check it and share. We’ve
           got lots of information including care sheets for anyone new to
@@ -24,8 +25,10 @@ function Testimonials() {
           it out there that you have a website, really phone friendly, easy to
           navigate and theyve pulled out all the stops for you"
         </em>{" "}
-        <br/><strong>Jamie and other local industry professionals @ Kernow Pets and local St Austell Business Owners</strong>
+        <br/>
+   <strong>Jamie and other local industry professionals @ Kernow Pets and local St Austell Business Owners</strong>
       </p>
+     </div>
     </div>
   );
 }

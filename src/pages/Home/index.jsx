@@ -1,19 +1,27 @@
 import React from "react";
-import logo from "../../assets/images/businessLogo.jpeg";
-import ContainerIntro from "../../components/Container";
-import About from "../../components/About/index";
+import profilePic from "../../assets/images/ProfilePic.jpeg";
+import About from "../../components/About";
 import "../../assets/styles/pages.css";
+
 
 function Home() {
   return (
-    <div className="pageBackground">
+    <div className="pageBackgroundHome">
       <div>
-        <h1 className="homePageTitle">Nautical Turtle</h1>
-        </div> 
-        <About />
-        <br/>
-        <ContainerIntro />
+        <div>
+          <img src={profilePic} className="profilePic" alt="ABF profilePic" />
+        </div>
+        <div >
+          <h1 className="homePageTitle">Alana Barrett-Frew</h1>
+        </div>
+        <div >
+          <h2 className="homeSubtitle">Front End Web Developer</h2>
+        </div>
+        <div className="aboutMePosition">
+          <About />
       </div>
+      </div>
+    </div>
   );
 }
 

@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "key": 1,
+    "name": "nextjs-blog",
+    "image": "https://drive.google.com/uc?export=view&id=1pB1NUlKU0gUBuGWR1jRHHXlU1sNpu0ce",
+    "Github": "https://github.com/AlanaBF/nextjs-blog",
+    "deployedLink": "https://nextjs-blog-alanabf.vercel.app/",
+    "about": "An app that uses Next.js and React that is linked to my main portfolio website that blogs my career change journey from Teacher to Web Developer."
+  },
+  {
+    "id": 2,
+    "key": 2,
+    "name": "Newsletter Signup",
+    "image": "https://drive.google.com/uc?export=view&id=1hd8Aov8ija7H9X31THpz_u1kYdQY0_o-",
+    "Github": "https://github.com/AlanaBF/newsletter-app",
+    "deployedLink": "https://newsletter-signup-ntrf.onrender.com/",
+    "about": "An app where you can sign up to receive latest news on my journey from Teacher to Web Developer. The App uses Node.js and Express. It uses the Mailchimp API to store email the addresses and allows me to send a template email as required."
+  },
+  {
+    "id": 3,
+    "key": 3,
+    "name": "to-do-list",
+    "image": "https://drive.google.com/uc?export=view&id=14Rk1utLMDHw5r67MhDhZE-n5AeWJ_-1t",
+    "Github": "https://github.com/AlanaBF/to-do-planner",
+    "deployedLink": "https://to-do-list-planner.onrender.com/",
+    "about": "The to do list app allows the user to create a to do list for a variety of different topics, eg, general, work, shopping and holiday planning. It uses Node.js and Express and EJS templates."
+  },
+  {
+    "id": 4,
+    "key": 4,
+    "name": "Team profile Generator",
+    "image": "https://drive.google.com/uc?export=view&id=1421N1HS76Xenq5qAtocIwg2ZKrB7btaS",
+    "Github": "https://github.com/AlanaBF/Team-Profile-Generator",
+    "deployedLink": "not deployed",
+    "about": "Using Object-Orientated Programming, this application converts starter code into a working Node.js command-line application. It takes information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. Every part of the code passes each provided test using jest."
+  },
+  {
+    "id": 5,
+    "key": 5,
+    "name": "README Generator",
+    "image": "https://drive.google.com/uc?export=view&id=1uOTqn2E6CtGOd5LXo3g1AaWPbkg_Y9dA",
+    "Github": "https://github.com/AlanaBF/README-Generator",
+    "deployedLink": "not deployed",
+    "about": "README Generator so that you can quickly create a professional README for a new project by answering question in the terminal running node index.js."
+  },
+  {
+    "id": 6,
+    "key": 6,
+    "name": "Weather Dashboard",
+    "image": "https://drive.google.com/uc?export=view&id=1A7njQ0nI1l2qVNjkAiDkKNGpTj1J4Msn",
+    "Github": "https://github.com/AlanaBF/Weather-Dashboard",
+    "deployedLink": "https://alanabf.github.io/Weather-Dashboard/",
+    "about": "A weather dashboard that runs in the browser and features dynamically updated HTML and CSS."
+  },
+  {
+    "id": 7,
+    "key": 7,
+    "name": "Daily Planner",
+    "image": "https://drive.google.com/uc?export=view&id=1EQsfRVOzVWqiYI_XBXgQ7qAoz_5SfnjF",
+    "Github": "https://github.com/AlanaBF/Daily-Planner-App",
+    "deployedLink": "https://alanabf.github.io/Daily-Planner-App/",
+    "about": "An application that allows a user to save events for each hour of the day by modifying starter code. This app runs in the browser and features dynamically updated HTML and CSS powered by jQuery. The Moment.js library is used to work with date and time."
+  },
+  {
+    "id": 8,
+    "key": 8,
+    "name": "Password Generator",
+    "image": "https://drive.google.com/uc?export=view&id=1Z9gEj_CpVcMhHjTBUJpCaVuW8kDtuFuA",
+    "Github": "https://github.com/AlanaBF/Password-Generator",
+    "deployedLink": "https://alanabf.github.io/Password-Generator/",
+    "about": "An application that an employee can use to generate a random password based on criteria they’ve selected. This app runs in the browser, and features dynamically updated HTML and CSS powered by JavaScript code. It has a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes. The password can include special characters."
+  },
+  {
+    "id": 9,
+    "key": 9,
+    "name": "Code-Quiz",
+    "image": "https://drive.google.com/uc?export=view&id=1GuFiW9vjC23XxjfFyofAypSX08ZexYS2",
+    "Github": "https://github.com/AlanaBF/Code-Quiz",
+    "deployedLink": "https://alanabf.github.io/Code-Quiz/",
+    "about": "A simple JavaScript quiz application that allows users to answer multiple-choice questions and save high scores by persisting data to local storge. The app runs in the browser and features dynamically updated HTML and CSS powered by JavaScript code."
+  }
+]

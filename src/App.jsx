@@ -1,9 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Home, Contact, Blog, FreelanceDeveloper, FreelanceTutor, NotFound } from "./pages";
-import Header from "./components/Header/index";
-import Footer from "./components/Footer/index";
-import './App.css'
+import { Home, Contact, ProfessionalProjects, ProjectGallery, CollaborativeProjects, Blog, NotFound, GamesGallery } from "./pages";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -16,8 +15,10 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Blog" element={<Blog />} />
-          <Route path="/FreelanceDeveloper" element={<FreelanceDeveloper />} />
-          <Route path="/FreelanceTutor" element={<FreelanceTutor />} />
+          <Route path="/ProfessionalProjects" element={<ProfessionalProjects />} />
+          <Route path="/ProjectGallery" element={<ProjectGallery />} />
+          <Route path="/CollaborativeProjects" element={<CollaborativeProjects />} />
+          <Route path="/GamesGallery" element={<GamesGallery />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

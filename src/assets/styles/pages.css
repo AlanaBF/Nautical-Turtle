@@ -1,8 +1,7 @@
 /* General Page Layout */
 .pageBackground {
-  background-color: var(--pale-green);
-  color: var(--dark-blue);
-  min-height: 87vh;
+  background-color: var(--navy-blue);
+  min-height: 100vh;
   text-align: center;
   padding: 1%;
   margin: 0;
@@ -10,68 +9,90 @@
 
 /* Home Page */
 
-.businessLogo {
-  height: 300px;
+.pageBackgroundHome {
+  background-image: url(../../assets//images//vecteezy_beach-holiday-summer-background_7076104.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.homePageTitle {
+  color: var(--dark-blue) !important;
+  text-align: center;
+}
+
+.homeSubtitle {
+  text-align: center !important;
+  color: var(--dark-blue) !important;
+  padding-bottom: 5% !important;
+}
+
+.aboutMePosition {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  width: 80%;
 }
 
 .profilePic {
   width: 15%;
   height: 25%;
   border-radius: 50px;
+  border: var(--dark-blue) solid 10px;
   margin-top: 20px;
 }
-/* Freelance Web Dev and Tutor Pages */
 
-.webImage {
-  display: block;
-  height: 400px;
-  margin: 0 auto;
-}
-.contact-button {
-  color: var(--pale-green) !important;
-  background-color: var(--dark-blue) !important;
-  border: solid 10px var(--dark-blue) !important;
-  border-radius: 10px;
-}
-.contact-button:hover {
-  color: var(--pale-green) !important;
-  background-color: var(--teal) !important;
-  border: solid 10px var(--teal) !important;
+/* Project Gallery Page */
+
+.galleryIntro {
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  margin-bottom: 1%;
+  padding: 1rem;
+  font-family: "Caveat", cursive;
+  font-family: "Fuzzy Bubbles", cursive;
+  color: var(--dark-blue) !important;
 }
 
-/* Blog Page Styles */
+.galleryBackground {
+  background-image: url(../images/vecteezy_the-wild-ocean-view_6177787.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
 .galleryPageCard {
   display: flex;
-  margin: auto;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
+
+.galleryPageTitle {
+  color: var(--dark-blue) !important;
+  font-family: "Caveat", cursive;
+  font-family: "Fuzzy Bubbles", cursive;
+}
+
+/* Avatar Image */
+
+.avatar-img {
+  height: 300px;
+  margin: auto;
+  padding: auto;
+}
+
 /* Blog Page Styles */
 
-.backgroundBlogPicture {
-  background-image: url(../images/maldives.jpeg);
-  width: 100%;
-  background-position: center center;
-  padding-bottom: 100px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border: solid 10px var(--dark-blue);
-  border-radius: 40px;
-}
-
-.blogPageButton {
-  display: flex;
-  background-color: var(--dark-blue) !important;
-  border: solid 10px var(--dark-blue) !important;
-  border-radius: 20px !important;
-  margin-top: 20px;
-}
-
-.blogPageButton:hover {
-  background-color: var(--teal) !important;
-  border: solid 10px var(--teal) !important;
+.blogPageTitle,
+.cvPageTitle {
+  color: var(--light-blue);
 }
 
 .blogText {
+  color: var(--light-blue);
   padding: 10px;
   font-size: 1.5em;
 }
@@ -82,8 +103,60 @@
   justify-content: space-around;
 }
 
+.backgroundBlogPicture {
+  background-image: url(../../assets/images/maldives.jpeg);
+  width: 100%;
+  background-position: center center;
+  padding-bottom: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: var(--light-blue) solid 20px;
+  border-radius: 40px;
+}
+
+.pictureSection {
+  padding: 50px;
+}
+
+.blogLink {
+  color: var(--navy-blue);
+  background-color: var(--light-blue);
+  border: var(--dark-blue) solid 10px;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.blogPageButton {
+  display: flex;
+  color: #caf0f8 !important;
+  background-color: var(--dark-blue) !important;
+  border: var(--dark-blue) solid 10px !important;
+  border-radius: 20px !important;
+  font-family: "Caveat", cursive;
+  font-family: "Fuzzy Bubbles", cursive !important;
+}
+
+.blogPageButton:hover {
+  background-color: var(--light-blue) !important;
+  border: var(--light-blue) solid 10px !important;
+  color: var(--dark-blue) !important;
+}
+
 /* Contact Page */
 
+.contactBackground {
+  background-image: url(../images/vecteezy_sea-cave-background-in-cartoon-style_6769520.jpg);
+  min-height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+.pageTitle {
+  color: var(--light-blue);
+}
 .contact {
   font-size: 400%;
 }
@@ -92,17 +165,21 @@
   text-align: center;
   margin: 0 auto 50px auto;
   padding: 20px;
-
+  border: var(--dark-blue) solid 20px;
   font-size: 1rem;
   font-weight: bold;
-
+  color: var(--dark-blue);
+  font-family: "Caveat", cursive;
+  font-family: "Fuzzy Bubbles", cursive;
+  background-color: var(--light-blue);
   border-radius: 20px;
   width: 80%;
 }
 
 .buttonGroup {
-  margin-top: 1%;
-  margin-bottom: 10%;
+  color: var(--dark-blue);
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .fa {
@@ -113,7 +190,6 @@
 
 .fa:hover {
   font-size: 5rem;
-  color: var(--teal);
 }
 
 span {
@@ -125,16 +201,39 @@ span {
 
 .contactMeForm {
   width: 80%;
-  border: solid 10px var(--dark-blue);
+  background-color: var(--dark-blue);
   margin: auto;
   border-radius: 60px;
-  padding: 10px;
+  padding: 50px;
 }
 
+.cv {
+  display: flex;
+  margin: 40px auto 40px auto;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  color: var(--aqua-blue);
+  font-weight: bold;
+  font-size: 100%;
+  width: 30%;
+  border-radius: 20px;
+  border: var(--dark-blue) solid 10px;
+  background-color: var(--dark-blue);
+  padding-bottom: 10px;
+}
+
+.cv:hover {
+  color: var(--aqua-blue);
+  background-color: var(--navy-blue);
+  border: var(--navy-blue) solid 10px;
+}
 /* Page Not Found */
 
 .notFoundPageContainer {
   width: 100%;
+  background-color: var(--navy-blue);
   height: 85vh;
 }
 
@@ -149,8 +248,11 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 20px solid var(--dark-blue);
   border-radius: 20px;
   width: 80%;
+  background-color: var(--navy-blue);
+  color: var(--light-blue);
 }
 
 .notFoundPageContent div {
@@ -174,6 +276,10 @@ span {
 
 .notFoundPageContent span {
   font-size: 2rem;
+}
+
+.notFoundPageContent a {
+  color: var(--light-blue);
 }
 
 .notFoundPageContent img {

@@ -4,69 +4,275 @@
   width: 100% !important;
   height: 100% !important;
   font-size: 1rem !important;
-  background-color: var(--dark-blue);
+  background-color: var(--dark-blue) !important;
   justify-content: space-around !important;
-}
+  }
 
 .navIcons {
   display: flex;
   justify-content: space-around;
   align-items: center;
   text-decoration: none !important;
-  color: var(--pale-green);
 }
 
 .navbarIcons {
   font-size: 2rem !important;
-  color: var(--pale-green) !important;
+  color: var(--light-blue) !important;
   padding: 10px;
 }
 
 .navbarIcons:hover {
   font-size: 2rem !important;
-  color: var(--teal) !important;
+  color: var(--navy-blue) !important;
   padding: 10px;
 }
 
 .navbarBrand {
-  color: var(--pale-green) !important;
+  color:var(--navy-blue) !important;
   font-size: 100%;
-  margin-left: 1%;
+  margin-left: 0%;
 }
 
 .navLink {
-  color: var(--pale-green) !important;
+  color: var(--light-blue) !important;
   font-size: 60%;
+  font-family: 'Caveat', cursive;
+  font-family: 'Fuzzy Bubbles', cursive;
   border-radius: 20px;
   width: auto;
 }
 
 .navLink:hover {
-  background-color: var(--pale-green);
+  background-color: var(--light-blue);
   color: var(--dark-blue) !important;
   border-radius: 20px;
   width: auto;
 }
 
-.webLinkButton {
-  color: var(--pale-green) !important;
-  background-color: var(--dark-blue) !important;
-  border: solid 10px var(--dark-blue) !important;
-    width: 300px; /* Adjust the width as desired */
-    height: 80px; /* Adjust the height as desired */
-    margin: 10px;
+#basicNavDropdown, #basicNavDropdown1 {
+  color: #caf0f8 !important;
+  font-size: 100%;
+  font-family: 'Caveat', cursive;
+  font-family: 'Fuzzy Bubbles', cursive;
+  border-radius: 20px;
+  width: auto;
 }
 
-.webLinkButton:hover {
-  color: var(--pale-green) !important;
-  background-color: var(--teal) !important;
-  border: solid 10px var(--teal) !important;
+div.dropdown-menu.show {
+background-color: var(--dark-blue) !important;
+border:0;
+padding: 0 0 !important;
+text-align: center;
 }
+
+/* Testimonials */
+
+.TestimonialsPageTitle {
+  color: var(--dark-blue);
+}
+
+.TestimonialsPageText {
+  color: var(--dark-blue);
+  background-color: var(--light-blue);
+  margin: auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 20px;
+}
+
+/* About Component */
+.aboutContainer {
+    font-family: "Caveat", cursive;
+    font-family: "Fuzzy Bubbles", cursive;
+}
+
+.aboutCard {
+  color: var(--dark-blue);
+  font-size: 100%;
+  text-align: center;
+  background-color: var(--light-blue);
+  border: solid 10px var(--dark-blue);
+  border-radius: 20px;
+  padding: 1%;
+  margin-bottom: 5%;
+}
+
+.sectionHeader {
+  color: var(--dark-blue);
+}
+
+.aboutText {
+  color: var(--dark-blue);
+  font-size: 100%;
+  text-align: center;
+}
+
+.skillsList {
+  color: var(--dark-blue);
+  font-size: 100%;
+  text-align: center;
+}
+
+li {
+  list-style-type: none; /* Remove bullets */
+  padding: 0;
+  margin: 0;
+}
+
+/* Blog Component */
+
+.blogCardContainer {
+  max-width: 450px;
+  display: flex;
+  justify-content: center;
+  border: 1rem solid var(--dark-blue) !important;
+  margin: 10px auto;
+  background-color: var(--light-blue) !important;
+  border-radius: 50px;
+}
+
+.blogImage {
+  height: 350px;
+}
+
+.blogTitle,
+.blogDate {
+  height: 100px;
+  color: var(--navy-blue);
+}
+
+.blogTitle {
+  font-size: 1.5em;
+}
+.blogDate {
+  font-size: 1em;
+}
+
+.blogButton {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 100%;
+  width: 40%;
+  border-radius: 20px;
+  background-color: var(--dark-blue) !important;
+  border: var(--dark-blue) solid 10px !important;
+}
+
+.blogButton:hover {
+  background-color: var(--navy-blue) !important;
+  border: var(--navy-blue) solid 10px !important;
+ 
+}
+
+.blogLinkText {
+  color: var(--light-blue);
+  font-size: 1em;
+  text-decoration: none;
+}
+
+/* Contact Me Component */
+
+.formLabel {
+  display: flex;
+  margin: auto;
+  color: var(--aqua-blue);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: "Caveat", cursive !important;
+  font-family: "Fuzzy Bubbles", cursive !important;
+}
+
+.formInput {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 50% !important;
+  font-family: "Caveat", cursive !important;
+  font-family: "Fuzzy Bubbles", cursive !important;
+}
+
+.submitButton {
+  display: flex;
+  font-family: "Caveat", cursive !important;
+  font-family: "Fuzzy Bubbles", cursive !important;
+  margin: 40px auto 40px auto !important;
+  text-align: center !important;
+  justify-content: center !important;
+  align-items: center !important;
+  color: var(--dark-blue) !important;
+  font-weight: bold !important;
+  font-size: 100% !important;
+  width: 40% !important;
+  border-radius: 20px !important;
+  border: var(--dark-blue) solid 10px !important;
+  background-color: var(--aqua-blue) !important;
+}
+
+.submitButton:hover {
+  color: var(--aqua-blue) !important;
+  background-color: var(--navy-blue) !important;
+}
+
+.messageBox {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 50% !important;
+  height: 100px;
+  font-family: "Caveat", cursive !important;
+  font-family: "Fuzzy Bubbles", cursive !important;
+}
+
+.messageLabel {
+  margin: auto;
+  display: flex;
+  color: var(--aqua-blue);
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Caveat", cursive !important;
+  font-family: "Fuzzy Bubbles", cursive !important;
+}
+
+/* Drop Down Credit Component */
+
+#dropdown-basic-button {
+  background-color: var(--aqua-blue) !important;
+  color: var(--dark-blue) !important;
+}
+
+/*  Footer Component */
+
+.footer {
+  width: 100%;
+  background-color: var(--dark-blue) !important;
+  color:var(--aqua-blue);
+  font-size: 1rem !important;
+  text-align: center;
+  padding: 1rem;
+  font-family: "Caveat", cursive;
+  font-family: "Fuzzy Bubbles", cursive;
+ margin: 0;
+}
+
 /* ProjectCard Component */
 
 .galleryCard {
   width: 36rem !important;
   background: var(--light-blue) !important;
+  border-radius: 10px !important;
   border: 1rem solid var(--dark-blue) !important;
   margin: 1% !important;
 }
@@ -119,125 +325,3 @@
   font-size: 1em !important;
   color: var(--dark-blue);
 } 
-
-/* Blog Component */
-
-.blogCardContainer {
-  max-width: 450px;
-  display: flex;
-  justify-content: center;
-  border: solid 10px var(--dark-blue) !important;
-  margin: 10px auto;
-  border-radius: 50px;
-}
-
-.blogImage {
-  height: 300px;
-}
-
-.blogTitle,
-.blogDate {
-  height: 100px;
-}
-
-.blogTitle {
-  font-size: 1.5em;
-}
-.blogDate {
-  font-size: 1em;
-}
-
-.blogButton {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-  font-size: 100%;
-  width: 40%;
-  border-radius: 20px;
-  background-color: var(--dark-blue) !important;
-  border: solid 10px var(--dark-blue) !important;
-}
-
-.blogButton:hover {
-  background-color: var(--teal) !important;
-  border: solid 10px var(--teal) !important;
-}
-
-.blogLinkText {
-  font-size: 1em;
-  text-decoration: none;
-}
-
-/* Contact Me Component */
-
-.formLabel {
-  display: flex;
-  margin: auto;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  font-size: 1rem;
-}
-
-.formInput {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  width: 50% !important;
-}
-
-.submitButton {
-  display: flex;
-background-color: var(--dark-blue) !important;
-border: solid 10px var(--dark-blue) !important;
-  margin: 40px auto 40px auto !important;
-  text-align: center !important;
-  justify-content: center !important;
-  align-items: center !important;
-  font-weight: bold !important;
-  font-size: 100% !important;
-  width: 40% !important;
-  border-radius: 20px !important;
-}
-
-.submitButton:hover {
-  background-color: var(--teal) !important;
-  border: solid 10px var(--teal) !important;
-}
-
-.messageBox {
-  display: flex;
-  margin: auto;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  width: 50% !important;
-  height: 100px;
-}
-
-.messageLabel {
-  margin: auto;
-  display: flex;
-  font-weight: bold;
-  font-size: 1rem;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-}
-
-/*  Footer Component */
-
-.footer {
-  width: 100%;
-background-color: var(--dark-blue);
-  font-size: 1rem !important;
-  text-align: center;
-  padding: 1rem;
-color: var(--pale-green);
-  margin: 0;
-}
