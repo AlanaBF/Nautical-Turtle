@@ -1,6 +1,6 @@
 # Nautical Turtle
 
-This repository contains the code for my Nautical Turtle Site, which showcases both front-end web development services and tutoring services. The site is built using HTML, CSS, JavaScript, and React.
+This repository contains the code for my Nautical Turtle Portfolio Site, which showcases my projects so far. The site is built using HTML, CSS, JavaScript, and React.
 
 Website: [Nautical Turtle](https://nauticalturtle.com)
 
@@ -12,8 +12,6 @@ Website: [Nautical Turtle](https://nauticalturtle.com)
   - [Technology Used](#technology-used)
   - [Description](#description)
   - [Front-end Web Development](#front-end-web-development)
-  - [Freelance Work](#freelance-work)
-  - [Tutoring Services](#tutoring-services)
   - [Screenshots](#screenshots)
   - [Contributing](#contributing)
   - [License](#license)
@@ -21,7 +19,7 @@ Website: [Nautical Turtle](https://nauticalturtle.com)
 
 ## Technology Used
 
-The Nautical Turtle Business website is built using the following technologies:
+The Nautical Turtle website is built using the following technologies:
 
 - ![HTML Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 - ![CSS Badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -31,7 +29,7 @@ The Nautical Turtle Business website is built using the following technologies:
 
 ## Description
 
-The Nautical Turtle is designed to showcase my services and provide information about my freelance services. The website incorporates HTML, CSS, and JavaScript for the front-end development, with React and React Bootstrap to enhance the user experience. You can use this website to explore my services, view my past/current projects, and get in touch with me. The website provides an intuitive interface and easy navigation to help you find the information you need.
+The Nautical Turtle is designed to showcase my projects. The website incorporates HTML, CSS, and JavaScript for the front-end development, with React and React Bootstrap to enhance the user experience. You can use this website to explore my services, view my past/current projects, and get in touch with me. The website provides an intuitive interface and easy navigation to help you find the information you need.
 
 ## Front-end Web Development
 
@@ -54,30 +52,15 @@ To explore the front-end web development services, please follow the instruction
 
 Feel free to navigate through the different sections and explore the showcased projects. If you have any questions or inquiries regarding front-end web development, please don't hesitate to contact me.
 
-## Freelance Work
-
-I provide freelance work in front-end web development. If you have a specific project in mind or need assistance with building a website, I am available for freelance collaborations.
-
-Here's what I can offer as a freelance developer:
-
-- Custom website development
-- Responsive design implementation
-- User interface (UI) and user experience (UX) design
-- Front-end development using HTML, CSS, and JavaScript
-- React.js development and integration
-- Website optimization and performance enhancements
-- Ongoing website maintenance and updates
-If you're interested in working with me on a freelance basis, please reach out to me through the contact information provided below.
-
-## Tutoring Services
-
-In addition to front-end web development, the Nautical Turtle also offers tutoring services, specifically in Maths for Key Stages 2, 3, and 4. I am dedicated to helping students improve their mathematical skills and achieve academic success.
-
-To learn more about my tutoring services, please visit the tutoring section on the Nautical Turtle Business Site. You can find details about my tutoring approach, subjects covered, and how to get in touch with me.
-
 ## Screenshots
 
-Include relevant screenshots or images of your website here.
+![Home Page](./src/assets/Screenshots/homepage.png)
+![Professional Projects](./src/assets/Screenshots/professionalProjects.png)
+![Collaborative Projects](./src/assets/Screenshots/collaborativeProjects.png)
+![Personal Projects](./src/assets/Screenshots/personalProjects.png)
+![Games Projects](./src/assets/Screenshots/gamesProjects.png)
+![Blog Page](./src/assets/Screenshots/blog.png)
+![Contact Page](./src/assets/Screenshots/contactMe.png)
 
 ## Contributing
 
@@ -89,7 +72,7 @@ A am not currently accepting contributions to this project. However, if you have
 
 ## Questions
 
-Thank you for visiting the Nautical Turtle Site. I look forward to hearing from you and assisting you with your web development, freelance, or tutoring needs. If you have any questions or need further assistance, please contact me:
+Thank you for visiting the Nautical Turtle Site. I look forward to hearing from you. If you have any questions or need further assistance, please contact me:
 
 - Email: [alanabarrettfrew@gmail.com](mailto:alanabarrettfrew@gmail.com)
 - Phone: 07817663239
