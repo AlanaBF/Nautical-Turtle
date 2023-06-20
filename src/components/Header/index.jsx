@@ -33,7 +33,7 @@ function Header() {
             {/* Project Dropdown */}
             <NavDropdown
               className="dropdownNav"
-              title="My Projects"
+              title="Projects"
               id="basicNavDropdown"
             >
              <LinkContainer to="/ProfessionalProjects">

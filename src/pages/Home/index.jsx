@@ -12,10 +12,10 @@ function Home() {
           <img src={profilePic} className="profilePic" alt="ABF profilePic" />
         </div>
         <div >
-          <h1 className="homePageTitle">Alana Barrett-Frew</h1>
+          <h1 className="homePageTitle">Nautical Turtle</h1>
         </div>
         <div >
-          <h2 className="homeSubtitle">Front End Web Developer</h2>
+          <h2 className="homeSubtitle">Front End Web Developer, Project Manager, Educator</h2>
         </div>
         <div className="aboutMePosition">
           <About />
