@@ -65,13 +65,13 @@ function Header() {
 
           <Nav className="nav navbar-nav flex-row justify-content-md-center justify-content-start flex-nowrap">
             <div className="navIcons">
-              <a href="https://twitter.com/AlanaBF81">
+              <a href="https://twitter.com/AlanaBF81" target="_blank" rel="noopener noreferrer">
                 <i className="fa navbarIcons fa-twitter"></i>
               </a>
-              <a href="https://github.com/AlanaBF">
+              <a href="https://github.com/AlanaBF" target="_blank" rel="noopener noreferrer">
                 <i className="fa navbarIcons fa-github"></i>
               </a>{" "}
-              <a href="https://www.linkedin.com/in/alanabarrettfrew/">
+              <a href="https://www.linkedin.com/in/alanabarrettfrew/" target="_blank" rel="noopener noreferrer">
                 <i className="fa navbarIcons fa-linkedin"></i>
               </a>
             </div>
