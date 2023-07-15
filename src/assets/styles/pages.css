@@ -4,15 +4,10 @@
   color: var(--dark-blue);
   min-height: 87vh;
   text-align: center;
-  padding: 1%;
   margin: 0;
 }
 
 /* Home Page */
-
-.businessLogo {
-  height: 300px;
-}
 
 .profilePic {
   width: 15%;
@@ -47,9 +42,15 @@
 }
 /* Blog Page Styles */
 
+.blogPageTitle {
+padding: 20px;
+}
+
 .backgroundBlogPicture {
   background-image: url(../images/maldives.jpeg);
-  width: 100%;
+  width: 98%;
+  margin: auto;
+  height: 300px;
   background-position: center center;
   padding-bottom: 100px;
   background-size: cover;
@@ -72,8 +73,7 @@
 }
 
 .blogText {
-  padding: 10px;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .blogCard {

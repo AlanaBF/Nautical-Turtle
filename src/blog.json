@@ -1,10 +1,28 @@
 [
     {
+        "key": "5",
+        "id": "5",
+        "name": "A period of reflection and goal setting",
+        "date": "15/7/2023",
+        "image": "/MoffatsSchool.jpeg",
+        "postText": "Embarking on a career change often triggers deep reflection. In my first week at the West Midlands Digital Skills Academy with Version1, we were challenged to reflect and create goals, nurturing a growth mindset. These reflections took me back to my childhood, shaped by my parents' involvement in the Royal Air Force (RAF) and my love for the Mallory Towers books by Enid Blyton. Those books ignited a desire to attend boarding school, a place where routine, structure, and freedom intertwined seamlessly. With my parents' support and RAF subsidies, I embarked on an incredible adventure that left an indelible mark on my life.",
+        "blogLink": "https://alanabf-blog.vercel.app/posts/reflection"
+    },
+    {
+        "key": "4",
+        "id": "4",
+        "name": "My Journey to Landing my First Job in Tech",
+        "date": "5/7/2023",
+        "image": "https://images.squarespace-cdn.com/content/v1/56fe6986746fb9c9ad4d9f7d/1524128967693-H8RUPWGXQ16ZCIKZCJTB/version-1-logo.png",
+        "postText": "I've secured my first job in tech! Woohoo 🥳🤩🥰 It has been an exhilarating journey since I left my teaching career and embarked on a thrilling path of upskilling and retraining for a career change into the world of Tech. Breaking into this sector during a time of layoffs and fierce competition from established developers has been challenging, but I have gone above and beyond to ensure my success.",
+        "blogLink": "https://alanabf-blog.vercel.app/posts/new-job"
+    },
+    {
         "key": "1",
         "id": "1",
         "name": "Continuing my learning journey",
         "date": "21/5/2023",
-        "image": "https://alanabf-blog.vercel.app/images/IMG_2566.jpeg",
+        "image": "https://alanabf-blog.vercel.app/images/IMG_2566.jpg",
         "postText": "I am genuinely content with life at the moment, and finding a job that aligns with my passion and brings me immense joy would be the icing on the cake. The search continues, and I remain optimistic about discovering the perfect opportunity that will allow me to thrive.",
         "blogLink": "https://alanabf-blog.vercel.app/posts/learning-journey"
     },

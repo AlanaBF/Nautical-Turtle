@@ -3,9 +3,13 @@
 .navigation {
   width: 100% !important;
   height: 100% !important;
-  font-size: 1rem !important;
+  font-size: 1.5rem !important;
   background-color: var(--dark-blue);
   justify-content: space-around !important;
+}
+
+.nav {
+  margin-right: 2%;
 }
 
 .navIcons {
@@ -31,7 +35,7 @@
 .navbarBrand {
   color: var(--pale-green) !important;
   font-size: 100%;
-  margin-left: 1%;
+  margin-left: 2%;
 }
 
 .navLink {
@@ -62,6 +66,15 @@
   background-color: var(--teal) !important;
   border: solid 10px var(--teal) !important;
 }
+
+/* About Me */
+.intro-container {
+  background-color: var(--teal);
+  color: var(--pale-green);
+  padding: 50px;
+  font-size: 150%;
+}
+
 /* ProjectCard Component */
 
 .galleryCard {
@@ -135,15 +148,6 @@
   background-color: var(--pale-green);
 }
 
-.blogImage {
-  height: 300px;
-}
-
-.blogTitle,
-.blogDate {
-  height: 100px;
-}
-
 .blogTitle {
   font-size: 1.5em;
 }
@@ -154,8 +158,6 @@
 .blogButton {
   display: flex;
   text-align: center;
-  justify-content: center;
-  align-items: center;
   font-weight: bold;
   font-size: 100%;
   width: 40%;

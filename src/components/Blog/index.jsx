@@ -17,7 +17,7 @@ function BlogPost({ blogpost }) {
           <h3 className="blogDate">Date: {date}</h3>
         </Card.Title>
         <Card.Text>
-          <span>{postText}</span>
+          <div>{postText}</div>
         </Card.Text>
       </Card.Body>
       <Card.Body className="blogCardBody">
