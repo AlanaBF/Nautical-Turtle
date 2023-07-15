@@ -1,26 +1,14 @@
 import React from "react";
-import profilePic from "../../assets/images/ProfilePic.jpeg";
-import About from "../../components/About";
+import About from "../../components/About/index";
 import "../../assets/styles/pages.css";
-
 
 function Home() {
   return (
-    <div className="pageBackgroundHome">
+    <div className="pageBackground">
       <div>
-        <div>
-          <img src={profilePic} className="profilePic" alt="ABF profilePic" />
-        </div>
-        <div >
-          <h1 className="homePageTitle">Nautical Turtle</h1>
-        </div>
-        <div >
-          <h2 className="homeSubtitle">Front End Web Developer, Project Manager, Educator</h2>
-        </div>
-        <div className="aboutMePosition">
-          <About />
+        <h1 className="homePageTitle">Alana Barrett-Frew</h1>
       </div>
-      </div>
+      <About />
     </div>
   );
 }

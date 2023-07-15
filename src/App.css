@@ -1,18 +1,24 @@
-:root {
+#root {
   text-align: center;
-  --light-blue: #caf0f8;
-  --aqua-blue: #5ff;
-  --dark-blue: rgb(5, 85, 146);
-  --navy-blue: #181d31;
-  --cream:  #e6ddc4;
+  --dark-blue: #0388a6;
+  --dark-teal: #0396a6;
+  --teal: #04bfbf;
+  --green: #9cd9b6;
+  --pale-green: #d8f2e3;
+  --cream: #e6ddc4;
   height: 100vh;
+  font-family: "Handlee", cursive;
 }
 
-h1, h2, h3, h4, h5, p {
-  font-family: "Caveat", cursive;
-font-family: "Fuzzy Bubbles", cursive;  
-margin: 0;
-text-align: center;
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  font-family: "Handlee", cursive;
+  margin: 0;
+  text-align: center;
 }
 
 * {
@@ -68,11 +74,11 @@ a {
     margin-bottom: 1%;
     padding: 1rem;
     font-style: italic;
-    color: rgb(5, 85, 146);
+    color: var(--dark-blue);
   }
 
   .text {
-    color: rgb(5, 85, 146) !important;
+    color: var(--dark-blue) !important;
     font-size: 70%;
     text-align: center;
     background-color: white;
@@ -81,14 +87,14 @@ a {
   }
 
   .myname {
-    color: rgb(5, 85, 146) !important;
+    color: var(--dark-blue) !important;
     text-align: center;
     font-size: 100%;
   }
 
   .brand {
     text-align: center;
-    color: rgb(5, 85, 146) !important;
+    color: var(--dark-blue) !important;
     font-size: 100%;
   }
 }
@@ -98,42 +104,54 @@ a {
     width: 20%;
     height: 30%;
     border-radius: 50px;
-    border: solid rgb(5, 85, 146) 5px;
+    border: solid var(--dark-blue) 5px;
   }
 }
 
 @media (max-width: 545px) {
   .contactMeForm {
     width: 100%;
-    background-color: rgb(5, 85, 146) !important;
+    background-color: var(--dark-blue) !important;
     margin: auto;
     border-radius: 40px;
     padding: 2px;
+    color: var(--pale-green);
   }
   .card {
     width: 100%;
     height: auto;
     background: #caf0f8;
     border-radius: 5%;
-    border: 1rem solid rgb(5, 85, 156);
+    border: 1rem solid var(--dark-blue);
+    color: var(--pale-green);
   }
 
   .cardBodyText {
     font-size: 100%;
     height: auto;
-    border-top: 1rem solid rgb(5, 85, 156);
+    border-top: 1rem solid var(--dark-blue);
+    color: var(--pale-green);
   }
 
   .cardBodyLinks {
     font-size: 100%;
     height: auto;
-    border-top: 1rem solid rgb(5, 85, 156);
+    border-top: 1rem solid var(--dark-blue);
+    color: var(--pale-green);
   }
 
+  .submitButton {
+    background-color: var(--pale-green) !important;
+    color: var(--dark-blue) !important;
+  }
+  .submitButton:hover {
+    background-color: var(--teal) !important;
+    color: var(--pale-green) !important;
+  }
   .profilePic {
     width: 30%;
     height: 50%;
     border-radius: 50px;
-    border: solid rgb(5, 85, 146) 5px;
+    border: solid var(--dark-blue) 5px;
   }
 }
