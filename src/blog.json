@@ -1,5 +1,14 @@
 [
     {
+        "key": "5",
+        "id": "5",
+        "name": "A period of reflection and goal setting",
+        "date": "15/7/2023",
+        "image": "/public/MoffatsSchool.jpeg",
+        "postText": "Embarking on a career change often triggers deep reflection. In my first week at the West Midlands Digital Skills Academy with Version1, we were challenged to reflect and create goals, nurturing a growth mindset. These reflections took me back to my childhood, shaped by my parents' involvement in the Royal Air Force (RAF) and my love for the Mallory Towers books by Enid Blyton. Those books ignited a desire to attend boarding school, a place where routine, structure, and freedom intertwined seamlessly. With my parents' support and RAF subsidies, I embarked on an incredible adventure that left an indelible mark on my life.",
+        "blogLink": "https://alanabf-blog.vercel.app/posts/reflection"
+    },
+    {
         "key": "4",
         "id": "4",
         "name": "My Journey to Landing my First Job in Tech",
