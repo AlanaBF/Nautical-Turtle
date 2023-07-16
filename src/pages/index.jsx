@@ -1,12 +1,12 @@
 import Contact from "./Contact";
 import Home from "./Home";
-import Blog from "./Blog";
 import NotFound from "./NotFound";
-
-
+import AboutMe from "./AboutMe";
+import BlogPage from "./Blog/BlogPage";
 
 export {
-  Blog,
+  BlogPage,
+  AboutMe, 
   Contact,
   Home,
   NotFound,

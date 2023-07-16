@@ -9,41 +9,65 @@
 
 /* Home Page */
 
+.homePageSubTitle {
+  padding: 50px;
+  margin: 20px;
+  background-color: var(--teal);
+  border-radius: 50px;
+  border: solid 20px var(--dark-blue);
+  color: var(--pale-green);
+}
+
+.googleSearchContainer {
+  background-color: var(--dark-blue);
+  border-radius: 50px;
+  border: solid 20px var(--teal);
+  margin: 20px;
+}
+
+.turtleImg {
+  width: 15%;
+  height: 25%;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+/* About Me Page */
+
 .profilePic {
   width: 15%;
   height: 25%;
   border-radius: 50px;
   margin-top: 20px;
 }
-/* Freelance Web Dev and Tutor Pages */
+/* Blog Page Styles */
 
-.webImage {
-  display: block;
-  height: 400px;
-  margin: 0 auto;
+.blogCard {
+  width: 75%;
+  margin: auto;
+  padding: 20px;
 }
-.contact-button {
-  color: var(--pale-green) !important;
-  background-color: var(--dark-blue) !important;
-  border: solid 10px var(--dark-blue) !important;
-  border-radius: 10px;
+
+.blogPageLayout {
+  padding: 20px;
 }
-.contact-button:hover {
-  color: var(--pale-green) !important;
+
+.blogReadMoreButton {
   background-color: var(--teal) !important;
   border: solid 10px var(--teal) !important;
 }
 
-/* Blog Page Styles */
-.galleryPageCard {
+.custom-modal-dialog {
+  max-width: 1000px !important; /* Adjust the width as per your requirement */
+}
+
+.modalImages {
+  width: 60%;
   display: flex;
   margin: auto;
-  justify-content: center;
 }
-/* Blog Page Styles */
 
 .blogPageTitle {
-padding: 20px;
+  padding: 20px;
 }
 
 .backgroundBlogPicture {
@@ -59,21 +83,9 @@ padding: 20px;
   border-radius: 40px;
 }
 
-.blogPageButton {
-  display: flex;
-  background-color: var(--dark-blue) !important;
-  border: solid 10px var(--dark-blue) !important;
-  border-radius: 20px !important;
-  margin-top: 20px;
-}
-
-.blogPageButton:hover {
-  background-color: var(--teal) !important;
-  border: solid 10px var(--teal) !important;
-}
-
 .blogText {
-  font-size: 1em;
+  font-size: 2em;
+  padding: 20px;
 }
 
 .blogCard {
@@ -136,6 +148,7 @@ span {
 .notFoundPageContainer {
   width: 100%;
   height: 85vh;
+  background-color: var(--pale-green);
 }
 
 .notFoundPageInner {
@@ -178,5 +191,5 @@ span {
 
 .notFoundPageContent img {
   display: flex;
-  width: 200%;
+  width: 100%;
 }

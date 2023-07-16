@@ -27,9 +27,13 @@ function Header() {
           <LinkContainer to="/">
             <Nav.Link className="navLink">Home</Nav.Link>
           </LinkContainer>
+          {/* About Page */}
+          <LinkContainer to="/AboutMe">
+            <Nav.Link className="navLink">About Me</Nav.Link>
+          </LinkContainer>
           {/* Blog Page */}
-          <LinkContainer to="/Blog">
-            <Nav.Link className="navLink">Blog</Nav.Link>
+          <LinkContainer to="/BlogPage">
+            <Nav.Link className="navLink">Blog Page</Nav.Link>
           </LinkContainer>
           {/* Contacts and info */}
           <LinkContainer to="/Contact">

@@ -56,9 +56,9 @@
   color: var(--pale-green) !important;
   background-color: var(--dark-blue) !important;
   border: solid 10px var(--dark-blue) !important;
-    width: 300px; /* Adjust the width as desired */
-    height: 80px; /* Adjust the height as desired */
-    margin: 10px;
+  width: 300px; /* Adjust the width as desired */
+  height: 80px; /* Adjust the height as desired */
+  margin: 10px;
 }
 
 .webLinkButton:hover {
@@ -75,63 +75,35 @@
   font-size: 150%;
 }
 
-/* ProjectCard Component */
+/* Google Search */
 
-.galleryCard {
-  width: 36rem !important;
-  background: var(--light-blue) !important;
-  border: 1rem solid var(--dark-blue) !important;
-  margin: 1% !important;
+.googleSearchText {
+  font-weight: 900;
+  color: var(--pale-green);
+  padding: 20px;
 }
 
-.cardImagePosition {
-  display: flex;
-}
-
-.professionalCardImage {
-  width: 100%;
-  height: 100%;
-  object-fit: 100%;
-  overflow: hidden;
+.googleSubmit {
+  background-color: var(--teal);
+  padding: 5px;
+  border: solid 5px var(--dark-blue);
   border-radius: 10px;
+  color: var(--pale-green);
+  margin: 20px;
+  width: 20%;
+  font-size: 1.5em;
 }
 
-.cardImg {
-  width: 100%;
-  height: 100%;
-  object-fit: 100%;
-  overflow: hidden;
-  border-radius: 10px;
-} 
-
-.cardBodyText {
-  font-size: 1em !important;
-  height: 60%;
-  border-top: 1rem solid var(--dark-blue);
-}
-
-.cardBodyTitle {
-  font-size: 1em !important;
-  color: var(--dark-blue);
-  text-decoration: underline;
-}
-
-.cardBodyLinks {
-  font-size: 1em !important;
-  height: 40%;
-  border-top: 1rem solid var(--dark-blue);
-}
-
-.galleryCardLink, .galleryAnchorTag {
-  font-size: 1em !important;
-  line-height: 1 !important;
+.googleSubmit:hover {
+  background-color: var(--pale-green);
+  border: solid 5px var(--teal);
   color: var(--dark-blue);
 }
 
-.galleryText {
-  font-size: 1em !important;
-  color: var(--dark-blue);
-} 
+.googleTextEnter {
+  height: 50px;
+  width: 40%;
+}
 
 /* Blog Component */
 
@@ -146,6 +118,10 @@
 
 .blogCardBody {
   background-color: var(--pale-green);
+}
+
+.blogCardFooter {
+  background-color: var(--teal) !important;
 }
 
 .blogTitle {
@@ -167,8 +143,9 @@
 }
 
 .blogButton:hover {
-  background-color: var(--teal) !important;
-  border: solid 10px var(--teal) !important;
+  background-color: var(--pale-green) !important;
+  border: solid 10px var(--pale-green) !important;
+  color: var(--dark-blue) !important;
 }
 
 .blogLinkText {
@@ -199,8 +176,8 @@
 
 .submitButton {
   display: flex;
-background-color: var(--dark-blue) !important;
-border: solid 10px var(--dark-blue) !important;
+  background-color: var(--dark-blue) !important;
+  border: solid 10px var(--dark-blue) !important;
   margin: 40px auto 40px auto !important;
   text-align: center !important;
   justify-content: center !important;
@@ -240,10 +217,10 @@ border: solid 10px var(--dark-blue) !important;
 
 .footer {
   width: 100%;
-background-color: var(--dark-blue);
+  background-color: var(--dark-blue);
   font-size: 1rem !important;
   text-align: center;
   padding: 1rem;
-color: var(--pale-green);
+  color: var(--pale-green);
   margin: 0;
 }
