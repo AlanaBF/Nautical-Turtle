@@ -80,18 +80,19 @@
 .googleSearchText {
   font-weight: 900;
   color: var(--pale-green);
-  padding: 20px;
+  padding: 1px;
+  margin: 0;
 }
 
 .googleSubmit {
   background-color: var(--teal);
-  padding: 5px;
+  padding: 1%;
   border: solid 5px var(--dark-blue);
   border-radius: 10px;
   color: var(--pale-green);
-  margin: 20px;
-  width: 20%;
-  font-size: 1.5em;
+  margin: 1%;
+  width: 30%;
+  font-size: 1em;
 }
 
 .googleSubmit:hover {
@@ -102,7 +103,10 @@
 
 .googleTextEnter {
   height: 50px;
-  width: 40%;
+  width: 50%;
+  border-radius: 10px;
+  border: solid 1px var(--pale-green);
+  margin: 2%;
 }
 
 /* Blog Component */

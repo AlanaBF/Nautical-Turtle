@@ -10,23 +10,23 @@
 /* Home Page */
 
 .homePageSubTitle {
-  padding: 50px;
+  padding: 20px;
   margin: 20px;
   background-color: var(--teal);
   border-radius: 50px;
-  border: solid 20px var(--dark-blue);
+  border: solid 10px var(--dark-blue);
   color: var(--pale-green);
 }
 
 .googleSearchContainer {
   background-color: var(--dark-blue);
-  border-radius: 50px;
-  border: solid 20px var(--teal);
+  border-radius: 30px;
+  border: solid 10px var(--teal);
   margin: 20px;
 }
 
 .turtleImg {
-  width: 15%;
+  width: 60%;
   height: 25%;
   border-radius: 50px;
   margin-top: 20px;
@@ -42,9 +42,9 @@
 /* Blog Page Styles */
 
 .blogCard {
-  width: 75%;
+  width: 80%;
   margin: auto;
-  padding: 20px;
+  padding: 10px;
 }
 
 .blogPageLayout {

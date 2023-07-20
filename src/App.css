@@ -65,7 +65,7 @@ a {
 
 /* Media Queries */
 
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
   .title {
     width: 100%;
     text-align: center;
@@ -154,4 +154,4 @@ a {
     border-radius: 50px;
     border: solid var(--dark-blue) 5px;
   }
-}
+} */

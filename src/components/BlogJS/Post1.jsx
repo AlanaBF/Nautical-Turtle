@@ -36,7 +36,7 @@ const Post1 = () => {
             support and RAF subsidies, I embarked on an incredible adventure
             that left an indelible mark on my life.
           </Card.Text>
-          <Button variant="primary" onClick={handleShowModal}>
+          <Button className="blogReadMoreButton" variant="primary" onClick={handleShowModal}>
             Read More
           </Button>
         </Card.Body>
@@ -254,7 +254,7 @@ const Post1 = () => {
           </blockquote>
         </Modal.Body>
         <Modal.Footer>
-          <Button className="blogReadMoreButton" variant="secondary" onClick={handleCloseModal}>
+          <Button variant="secondary" onClick={handleCloseModal}>
             Close
           </Button>
         </Modal.Footer>

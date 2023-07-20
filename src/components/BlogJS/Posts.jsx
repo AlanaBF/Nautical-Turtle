@@ -1,5 +1,6 @@
 import React from "react";
 import Post1 from "./Post1";
+import Post2 from "./Post2";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "../../assets/styles/pages.css"
@@ -9,6 +10,7 @@ const Posts = () => {
       <Row className="justify-content-between">
         <Col md={8} className="mb-4 mt-4">
           <Post1 />
+          <Post2 />
         </Col>
         <Col md={2} className="mt-4 float-right">
           <Card>
