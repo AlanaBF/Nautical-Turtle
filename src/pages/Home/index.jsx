@@ -3,6 +3,7 @@ import GoogleSearch from "../../components/GoogleSearch";
 import "../../assets/styles/pages.css";
 import turtleImg from "../../assets/images/Turtle.jpeg";
 import "../../assets/styles/pages.css";
+import MyWebsites from "../../components/MyWebsites";
 function Home() {
   return (
     <div className="pageBackground">
@@ -20,6 +21,9 @@ function Home() {
           <img src={turtleImg} className="turtleImg" alt="Turtle Image" />
         </div>
       </div>{" "}
+      <div>
+        <MyWebsites/>
+      </div>
       <div className="googleSearchContainer">
         <GoogleSearch />
       </div>

@@ -75,6 +75,19 @@
   font-size: 150%;
 }
 
+/* My Websites */
+.website-button-cricket, .website-button-portfolio, .website-button-kernow {
+background-color: var(--teal) !important;
+border-radius: 10px;
+border: solid 10px var(--teal);
+color: white;
+padding: 10px;
+margin: 10px;
+}
+
+.website-image {
+  width: 15rem;
+}
 /* Google Search */
 
 .googleSearchText {
