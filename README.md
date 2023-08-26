@@ -1,10 +1,10 @@
-# Alana Barrett-Frew Freelance Page
+# Nautical Turtle
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
 
-- [Alana Barrett-Frew Freelance Page](#alana-barrett-frew-freelance-page)
+- [Nautical Turtle](#nautical-turtle)
   - [Table of Contents](#table-of-contents)
   - [Technology Used](#technology-used)
   - [Description](#description)
@@ -39,43 +39,27 @@ Technologies, frameworks and libraries used include:
 ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-With external links to my Blog Site and Sign up apps that additionally use the following technologies
-
-Blog Site:
-
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-
-Sign up to Blog updates:
-
-![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD)
-
 ## Description
 
-A website to showcase my freelance Web Development and Tutoring services.
+A website to showcase me and my interests.
 
-Deployed Site: https://alanabarrettfrew.com  
+Deployed Site: <https://www.nauticalturtle.com>  
 
 ## Usage
 
-You can use this application to find out more about me and the freelance services I offer.
+You can use this application to find out more about me and share some of my interests.
 
 ## Screenshots
 
-![Home Page](./src/assets/Screenshots/AlanaHome.png)
-![Freelance Web Page](./src/assets/Screenshots/freelanceWeb.png)
-![Freelance Tutor Page](./src/assets/Screenshots/freelanceTutor.png)
-![Blog Page](./src/assets/Screenshots/blogPage.png)
-![Contact Page](./src/assets/Screenshots/contactMePage.png)
+![Home Page](./src/assets/images/HomePage.png)
+![About Me Page](./src/assets/images/AboutMe.png)
+![Blog Page](./src/assets/images/BlogPage.png)
+![Contact Page](./src/assets/images/ContactMe.png)
 
 ## Contributing
 
-*List of collaborators*
-
 Alana Barrett-Frew
-* Emailjs.com to create a form and send me an email direct.
+Emailjs.com to create a form and send me an email direct.
 
 ## License
 

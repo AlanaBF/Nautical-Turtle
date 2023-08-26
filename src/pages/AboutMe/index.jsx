@@ -1,4 +1,3 @@
-import React from "react";
 import About from "../../components/About/index"
 import "../../assets/styles/pages.css";
 
