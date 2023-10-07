@@ -1,6 +1,7 @@
 import React from "react";
 import Post1 from "./Post1";
 import Post2 from "./Post2";
+import Post3 from "./Post3";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "../../assets/styles/pages.css"
@@ -11,6 +12,7 @@ const Posts = () => {
         <Col md={8} className="mb-4 mt-4">
           <Post1 />
           <Post2 />
+          <Post3 />
         </Col>
         <Col md={2} className="mt-4 float-right">
           <Card>
@@ -29,6 +31,11 @@ const Posts = () => {
                   </Link> 5/7/2023
                 </li>
                 <br />
+                <li>
+                  <Link to="/Post3">
+                    My 1st week as an Associate Consultant with Version 1
+                  </Link> 7/10/2023
+                </li>
               </ul>
             </Card.Body>
           </Card>
