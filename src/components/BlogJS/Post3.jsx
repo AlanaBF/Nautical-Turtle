@@ -108,7 +108,7 @@ const Post3 = () => {
               with a constant stream of information and knowledge to absorb.
               What made my first week even more exhilarating was being chosen
               for my very first project. It is a project where my transferable
-              teaching skills can shine and where I can offer a fresh
+              teaching skills can be used and where I can offer a different
               perspective. The prospect of acquiring new skills and evolving
               into a Business Analyst and AI Engineer is incredibly exciting.
             </p>
