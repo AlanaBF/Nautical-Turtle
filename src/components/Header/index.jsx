@@ -28,9 +28,9 @@ function Header() {
             <Nav.Link className="navLink">Home</Nav.Link>
           </LinkContainer>
           {/* About Page */}
-          <LinkContainer to="/AboutMe">
+          {/* <LinkContainer to="/AboutMe">
             <Nav.Link className="navLink">About Me</Nav.Link>
-          </LinkContainer>
+          </LinkContainer> */}
           {/* Blog Page */}
           <LinkContainer to="/BlogPage">
             <Nav.Link className="navLink">Blog Page</Nav.Link>
@@ -43,9 +43,9 @@ function Header() {
 
         <Nav className="nav navbar-nav flex-row justify-content-md-center justify-content-start flex-nowrap">
           <div className="navIcons">
-            <a href="https://twitter.com/AlanaBF81">
+            {/* <a href="https://twitter.com/AlanaBF81">
               <i className="fa navbarIcons fa-twitter"></i>
-            </a>
+            </a> */}
             <a href="https://github.com/AlanaBF">
               <i className="fa navbarIcons fa-github"></i>
             </a>{" "}

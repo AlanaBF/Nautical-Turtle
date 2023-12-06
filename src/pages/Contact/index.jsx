@@ -10,14 +10,11 @@ function Contact() {
       <p className="contactText">
         If you want to get in contact please use the form below
         <br />
-        or click on one of the links
-        <br />
-        or email me direct: alanabarrett-frew@hotmail.com
       </p>
       <span className="buttonGroup">
-        <a href="https://twitter.com/AlanaBF81" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
+        {/* <a href="https://twitter.com/AlanaBF81" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
           <i className="fa fa-twitter" aria-hidden="true"></i>
-        </a>
+        </a> */}
         <a href="https://github.com/AlanaBF" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
           <i className="fa fa-github" aria-hidden="true"></i>
         </a>
