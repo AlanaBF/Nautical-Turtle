@@ -54,17 +54,18 @@ function DoodlePad() {
     ctx.lineWidth = lineWidth;
     ctx.beginPath();
     ctx.moveTo(lastX, lastY);
-    ctx.lineTo(e.nativeEvent.offsetX, e.nativeEvent.offsetY);
+    ctx.lineTo(e.clientX - rect.left, e.clientY - rect.top);
     ctx.stroke();
 
-    setLastX(e.nativeEvent.offsetX);
-    setLastY(e.nativeEvent.offsetY);
+    setLastX(e.clientX - rect.left);
+    setLastY(e.clientY - rect.top);
   }
 
   function handleMouseDown(e) {
     setIsDrawing(true);
-    setLastX(e.nativeEvent.offsetX);
-    setLastY(e.nativeEvent.offsetY);
+    const rect = canvasRef.current.getBoundingClientRect();
+    setLastX(e.clientX - rect.left);
+    setLastY(e.clientY - rect.top);
   }
 
   function handleMouseUp() {
@@ -91,8 +92,8 @@ function DoodlePad() {
 
   return (
     <div>
-    <h1 className='doodle-title'>Doodle Pad</h1>
-      <p>Click and hold mouse down to draw. Release to stop. Click button to clear the canvas and start again. Change the line colour, line thickness, and images using the drop-downs.</p>
+      <h1 className='doodle-title'>Doodle Pad</h1>
+      <p>Click and hold mouse down or touch and hold to draw. Release to stop. Click button to clear the canvas and start again. Change the line color, line thickness, and images using the drop-downs.</p>
       <button type="button" className="btn clear-button" onClick={clearCanvas}>Clear Canvas</button>
       <label className="color-picker">
         Choose Color: {" "}
@@ -148,10 +149,8 @@ function DoodlePad() {
           e.preventDefault();
           const rect = canvasRef.current.getBoundingClientRect();
           draw({
-            nativeEvent: {
-              offsetX: e.touches[0].clientX - rect.left,
-              offsetY: e.touches[0].clientY - rect.top,
-            }
+            clientX: e.touches[0].clientX,
+            clientY: e.touches[0].clientY,
           });
         }}
         onTouchEnd={() => setIsDrawing(false)}
@@ -161,6 +160,7 @@ function DoodlePad() {
 }
 
 export default DoodlePad;
+
 
 
 // import React, { useRef, useState, useEffect } from 'react';
