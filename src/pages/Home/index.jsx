@@ -1,5 +1,4 @@
 import React from "react";
-import GoogleSearch from "../../components/GoogleSearch";
 import "../../assets/styles/pages.css";
 import turtleImg from "../../assets/images/Turtle.jpeg";
 import MyWebsites from "../../components/MyWebsites";
@@ -23,9 +22,6 @@ function Home() {
       </div>{" "}
       <div>
         <MyWebsites/>
-      </div>
-      <div className="googleSearchContainer">
-        <GoogleSearch />
       </div>
       <div>
         <br />
