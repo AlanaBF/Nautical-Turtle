@@ -7,7 +7,7 @@ import {
   Route,
 } from "react-router-dom";
 
-import { Home, AboutMe, Contact, BlogPage, NotFound } from "./pages";
+import { Home, AboutMe, Contact, BlogPage, NotFound, Fun } from "./pages";
 import Header from "./components/Header";
 import Footer from "./components/Footer/";
 import Posts from "./components/BlogJS/Posts"; // Import the Posts component
@@ -22,6 +22,7 @@ const App = () => {
     createRoutesFromElements(
       <Route path="/" element={<Root />}>
         <Route path="/" element={<Home />} />
+        <Route path="/Fun" element={<Fun />} />
         <Route path="/AboutMe" element={<AboutMe />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/BlogPage" element={<BlogPage />} />

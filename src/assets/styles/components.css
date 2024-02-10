@@ -76,17 +76,167 @@
 }
 
 /* My Websites */
-.website-button-cricket, .website-button-portfolio, .website-button-kernow, .website-button-RWCFrance23 {
-background-color: var(--teal) !important;
-border-radius: 10px;
-border: solid 10px var(--teal);
-color: white;
-padding: 10px;
-margin: 10px;
+.website-button-cricket,
+.website-button-portfolio,
+.website-button-kernow,
+.website-button-RWCFrance23 {
+  background-color: var(--teal) !important;
+  border-radius: 10px;
+  border: solid 10px var(--teal);
+  color: white;
+  padding: 10px;
+  margin: 10px;
 }
 
 .website-image {
   width: 15rem;
+}
+
+/* The Voicinator */
+
+.voiceinator {
+  padding: 1rem;
+  min-width: 45%;
+  margin: 20px ;
+  border-radius: 1rem;
+  position: relative;
+  background-color: var(--teal);
+  overflow: hidden;
+  z-index: 1;
+  border: solid 10px var(--dark-blue)
+}
+
+.voiceinator input,
+.voiceinator button,
+.voiceinator select,
+.voiceinator textarea {
+  width: 100%;
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  border: 0;
+  font-size: 1rem;
+  background: #f7f7f7;
+  outline: 0;
+  color: var(--dark-blue);
+}
+
+.voiceinator button {
+  background-color: var(--pale-green);
+  font-size: 1rem;
+  border: 5px solid var(--dark-blue);
+  cursor: pointer;
+  width: 30%;
+  border-radius: 20px;
+  margin: 20px auto;
+}
+
+.voiceinator-title {
+  background-color: var(--teal);
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--dark-blue);
+}
+
+.voiceinator button:active {
+  top: 2px;
+}
+
+/* Speech detector */
+.speech-detector-container {
+  padding: 1rem;
+  min-width: 45%;
+  margin: 20px ;
+  border-radius: 1rem;
+  position: relative;
+  background-color: var(--teal);
+  overflow: hidden;
+  z-index: 1;
+  border: solid 10px var(--dark-blue)
+}
+
+.words {
+  max-width: 90%;
+  margin: 0 auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  line-height: 2.5rem;
+  min-height: 200px;
+  overflow-y: auto;
+}
+
+.speech-listen-button, .copy-text-button, .text-clear-button {
+  background-color: var(--pale-green);
+  color: var(--dark-blue);
+  font-size: 1rem;
+  border: 5px solid var(--dark-blue);
+  cursor: pointer;
+  width: 30%;
+  border-radius: 20px;
+  margin: 20px auto;
+}
+
+.speech-listen-button:hover,  .copy-text-button:hover, .text-clear-button:hover {
+  background-color: var(--teal);
+  color: white;
+}
+
+.speech-detector-title {
+  background-color: var(--teal);
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--dark-blue);
+}
+
+/* DoodlePad */
+
+.doodle-canvas {
+  margin: auto;
+  padding: 10px;
+}
+
+.doodle-title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--dark-blue);
+}
+canvas {
+  max-width: 100%;
+  display: flex;
+  border: 5px solid var(--teal);
+  background-color: white;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.color-picker, .line-width-picker, .canvas-content-picker {
+  background-color: var(--dark-blue);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0;
+  margin: 10px;
+}
+
+.clear-button {
+  background-color: var(--dark-blue) !important;
+  color: white !important;
+  padding: 8px !important;
+  border-radius: 5px !important;
+  border: 0 !important;
+  margin: 10px !important;
+}
+
+.color-picker-dropdown, .line-width-picker-dropdown, .canvas-content-picker-dropdown {
+  background-color: var(--pale-green);
+  color: var(--dark-blue);
+  border-radius: 5px;
+  padding: 2px;
 }
 /* Google Search */
 
