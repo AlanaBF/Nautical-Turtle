@@ -4,7 +4,7 @@ import "../../assets/styles/pages.css";
 import Voiceinator from "../../components/Voiceinator";
 import SpeechDetector from "../../components/SpeechDetector.jsx";
 import DoodlePad from "../../components/DoodlePad/index.jsx";
-
+import WhackAMole from "../../components/WhackaMole/index.jsx";
 function Fun() {
   return (
     <div className="pageBackground">
@@ -19,6 +19,7 @@ function Fun() {
         <SpeechDetector />
       </div>
       <div className="doodle-container"><DoodlePad/></div>
+      <div className="game-container"><WhackAMole/></div>
     </div>
   );
 }

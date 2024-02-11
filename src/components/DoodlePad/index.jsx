@@ -90,6 +90,7 @@ function DoodlePad() {
     setCanvasContent(e.target.value);
   }
 
+
   return (
     <div>
       <h1 className="doodle-title">Doodle Pad</h1>
@@ -156,20 +157,6 @@ function DoodlePad() {
         onMouseMove={draw}
         onMouseUp={handleMouseUp}
         onMouseOut={handleMouseUp}
-        onTouchStart={(e) => {
-          setIsDrawing(true);
-          const rect = canvasRef.current.getBoundingClientRect();
-          setLastX(e.touches[0].clientX - rect.left);
-          setLastY(e.touches[0].clientY - rect.top);
-        }}
-        onTouchMove={(e) => {
-          const rect = canvasRef.current.getBoundingClientRect();
-          draw({
-            clientX: e.touches[0].clientX - rect.left,
-            clientY: e.touches[0].clientY - rect.left,
-          });
-        }}
-        onTouchEnd={() => setIsDrawing(false)}
       ></canvas>
     </div>
   );
