@@ -275,7 +275,7 @@ canvas {
 
 .mole {
   background: url('../../components/WhackaMole/mole.svg') bottom center no-repeat;
-  background-size: 60%;
+  background-size: 40%;
   position: absolute;
   top: 100%;
   width: 100%;
