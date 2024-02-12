@@ -97,13 +97,13 @@
 .voiceinator {
   padding: 1rem;
   min-width: 45%;
-  margin: 20px ;
+  margin: 20px;
   border-radius: 1rem;
   position: relative;
   background-color: var(--teal);
   overflow: hidden;
   z-index: 1;
-  border: solid 10px var(--dark-blue)
+  border: solid 10px var(--dark-blue);
 }
 
 .voiceinator input,
@@ -147,13 +147,13 @@
 .speech-detector-container {
   padding: 1rem;
   min-width: 45%;
-  margin: 20px ;
+  margin: 20px;
   border-radius: 1rem;
   position: relative;
   background-color: var(--teal);
   overflow: hidden;
   z-index: 1;
-  border: solid 10px var(--dark-blue)
+  border: solid 10px var(--dark-blue);
 }
 
 .words {
@@ -168,7 +168,9 @@
   overflow-y: auto;
 }
 
-.speech-listen-button, .copy-text-button, .text-clear-button {
+.speech-listen-button,
+.copy-text-button,
+.text-clear-button {
   background-color: var(--pale-green);
   color: var(--dark-blue);
   font-size: 1rem;
@@ -179,7 +181,9 @@
   margin: 20px auto;
 }
 
-.speech-listen-button:hover,  .copy-text-button:hover, .text-clear-button:hover {
+.speech-listen-button:hover,
+.copy-text-button:hover,
+.text-clear-button:hover {
   background-color: var(--teal);
   color: white;
 }
@@ -214,7 +218,9 @@ canvas {
   margin: auto;
 }
 
-.color-picker, .line-width-picker, .canvas-content-picker {
+.color-picker,
+.line-width-picker,
+.canvas-content-picker {
   background-color: var(--dark-blue);
   color: white;
   padding: 5px;
@@ -232,7 +238,9 @@ canvas {
   margin: 10px !important;
 }
 
-.color-picker-dropdown, .line-width-picker-dropdown, .canvas-content-picker-dropdown {
+.color-picker-dropdown,
+.line-width-picker-dropdown,
+.canvas-content-picker-dropdown {
   background-color: var(--pale-green);
   color: var(--dark-blue);
   border-radius: 5px;
@@ -241,7 +249,7 @@ canvas {
 
 /* Whack a Mole */
 .score {
-  background: rgba(255,255,255,0.2);
+  background: rgba(255, 255, 255, 0.2);
   padding: 0 3rem;
   line-height: 1;
   border-radius: 1rem;
@@ -265,22 +273,23 @@ canvas {
   display: block;
   background: url(../../components/WhackaMole/dirt.svg) bottom center no-repeat;
   background-size: contain;
-  content: '';
+  content: "";
   width: 100%;
-  height:70px;
+  height: 70px;
   position: absolute;
   z-index: 2;
   bottom: -30px;
 }
 
 .mole {
-  background: url('../../components/WhackaMole/mole.svg') bottom center no-repeat;
+  background: url("../../components/WhackaMole/mole.svg") bottom center
+    no-repeat;
   background-size: 20%;
   position: absolute;
   top: 100%;
   width: 100%;
   height: 100%;
-  transition:all 0.4s;
+  transition: all 0.4s;
 }
 
 .hole.up .mole {
@@ -288,7 +297,7 @@ canvas {
 }
 
 .whackamole-button {
-  background-color: #827D84;
+  background-color: #827d84;
   color: white;
   border: black solid 2px;
   padding: 10px;
@@ -299,7 +308,7 @@ canvas {
 
 .start-button:hover {
   background-color: white;
-  color: #827D84;
+  color: #827d84;
 }
 
 /* Countdown Timers */
@@ -308,7 +317,7 @@ canvas {
   font-size: 10rem;
   margin: 0;
   color: white;
-  text-shadow: 4px 4px 0 rgba(0,0,0,0.05);
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.05);
 }
 
 .timer {
@@ -318,41 +327,40 @@ canvas {
 }
 
 .timer__controls {
-  display: flex;
-}
-
-.timer__controls > * {
-  flex: 1;
+  flex-direction: column;
+  max-width: 100%;
 }
 
 .timer__controls form {
-  flex: 1;
-  display: flex;
+  border: 0;
+  cursor: pointer;
+  padding: 1rem;
+  font-size: 1rem;
 }
 
 .timer__controls input {
-  flex: 1;
   border: 0;
-  padding: 2rem;
+  padding: 1rem;
+  text-transform: uppercase;
+  background-color: var(--teal);
+  cursor: pointer;
+  color: white;
 }
 
 .timer__button {
-  background: none;
+  background-color: var(--teal);
   border: 0;
   cursor: pointer;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-transform: uppercase;
-  background: rgba(0,0,0,0.1);
-  border-bottom: 3px solid rgba(0,0,0,0.2);
-  border-right: 1px solid rgba(0,0,0,0.2);
   padding: 1rem;
 }
 
 .timer__button:hover,
 .timer__button:focus {
-  background: rgba(0,0,0,0.2);
   outline: 0;
+  background-color: var(--dark-blue);
 }
 
 .display {
