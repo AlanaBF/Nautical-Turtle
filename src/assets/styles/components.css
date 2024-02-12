@@ -275,7 +275,7 @@ canvas {
 
 .mole {
   background: url('../../components/WhackaMole/mole.svg') bottom center no-repeat;
-  background-size: 40%;
+  background-size: 20%;
   position: absolute;
   top: 100%;
   width: 100%;
@@ -287,7 +287,7 @@ canvas {
   top: 0;
 }
 
-.start-button {
+.whackamole-button {
   background-color: #827D84;
   color: white;
   border: black solid 2px;

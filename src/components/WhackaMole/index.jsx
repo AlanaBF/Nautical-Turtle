@@ -37,32 +37,12 @@ function WhackAMole() {
     setMoles((prevMoles) => [...prevMoles, mole]);
   }
 
-  //   function startGame() {
-  //     setScore(0);
-  //     setTimeUp(false);
-  //     setGameOver(false);
-  //     setGameStarted(true);
-  //     setMoles([]);
-  //     peep();
-  //     setTimeout(() => {
-  //       setTimeUp(true);
-  //       setGameOver(true);
-  //     }, 10000);
-  //   }
   function startGame() {
     setScore(0);
     setTimeUp(false);
     setGameOver(false);
     setGameStarted(true);
     setMoles([]);
-
-    // Clear all timeouts
-    moles.forEach((mole) => clearTimeout(mole));
-
-    // Reset mole elements
-    const allMoles = document.querySelectorAll(".mole");
-    allMoles.forEach((mole) => mole.classList.remove("up"));
-
     peep();
     setTimeout(() => {
       setTimeUp(true);
@@ -70,44 +50,49 @@ function WhackAMole() {
     }, 10000);
   }
 
+  function bonk(e) {
+    if (!e.isTrusted) return;
+    if (!timeUp && !gameOver) {
+      setScore(score + 1);
+      e.target.classList.remove("up");
+    }
+  }
+
   useEffect(() => {
     if (gameStarted) {
       const moles = document.querySelectorAll(".mole");
-
+  
       const bonk = (e) => {
         // Your bonk function logic here
         if (!e.isTrusted) return;
         if (!timeUp && !gameOver) {
-          // Check if mole has already been hit
-          if (!e.target.classList.contains("hit")) {
-            setScore(score + 1); // Increase score by 1
-            e.target.classList.add("hit"); // Mark mole as hit to prevent score doubling
-          }
+          setScore(score + 1);
           e.target.classList.remove("up");
         }
       };
-
+  
       const addEventListeners = () => {
         moles.forEach((mole) => {
           mole.addEventListener("click", bonk);
           mole.addEventListener("touchstart", bonk);
         });
       };
-
+  
       const removeEventListeners = () => {
         moles.forEach((mole) => {
           mole.removeEventListener("click", bonk);
           mole.removeEventListener("touchstart", bonk);
         });
       };
-
+  
       addEventListeners();
-
+  
       return () => {
         removeEventListeners();
       };
     }
-  }, [gameStarted, score, timeUp, gameOver]);
+  }, [gameStarted, score]);
+
 
   useEffect(() => {
     return () => {
@@ -138,12 +123,10 @@ function WhackAMole() {
         <div className="game-over-popup">
           <h2>Game Over!</h2>
           <p>Your final score is: {score}</p>
-          <button
-            onClick={() => {
-              setGameStarted(false);
-              setGameOver(false);
-            }}
-          >
+          <button className="whackamole-button" onClick={() => {
+            setGameStarted(false);
+            setGameOver(false);
+          }}>
             Play Again
           </button>
         </div>
@@ -153,3 +136,4 @@ function WhackAMole() {
 }
 
 export default WhackAMole;
+
