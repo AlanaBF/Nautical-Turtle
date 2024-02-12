@@ -5,12 +5,14 @@ import Voiceinator from "../../components/Voiceinator";
 import SpeechDetector from "../../components/SpeechDetector.jsx";
 import DoodlePad from "../../components/DoodlePad/index.jsx";
 import WhackAMole from "../../components/WhackaMole/index.jsx";
+import Timer from "../../components/Countdowns/index.jsx";
 function Fun() {
   return (
     <div className="pageBackground">
       <div>
         <h1 className="homePageTitle">Fun Stuff</h1>
       </div>{" "}
+      <div><Timer/></div>
       <div className="googleSearchContainer">
         <GoogleSearch />
       </div>
