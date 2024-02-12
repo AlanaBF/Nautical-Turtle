@@ -106,7 +106,7 @@ function WhackAMole() {
         Whack-a-mole! <span className="score">{score}</span>
       </h1>
       {!gameStarted && (
-        <button className="start-button" onClick={startGame}>
+        <button className="whackamole-button" onClick={startGame}>
           Start!
         </button>
       )}
