@@ -3,8 +3,8 @@ import GoogleSearch from "../../components/GoogleSearch";
 import "../../assets/styles/pages.css";
 import Voiceinator from "../../components/Voiceinator";
 import SpeechDetector from "../../components/SpeechDetector.jsx";
-import DoodlePad from "../../components/DoodlePad/index.jsx";
-import WhackAMole from "../../components/WhackaMole/index.jsx";
+// import DoodlePad from "../../components/DoodlePad/index.jsx";
+// import WhackAMole from "../../components/WhackaMole/index.jsx";
 import Timer from "../../components/Countdowns/index.jsx";
 function Fun() {
   return (
@@ -20,8 +20,8 @@ function Fun() {
         <Voiceinator />
         <SpeechDetector />
       </div>
-      <div className="doodle-container"><DoodlePad/></div>
-      <div className="game-container"><WhackAMole/></div>
+      {/* <div className="doodle-container"><DoodlePad/></div> */}
+      {/* <div className="game-container"><WhackAMole/></div> */}
     </div>
   );
 }
