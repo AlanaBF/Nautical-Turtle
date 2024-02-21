@@ -52,6 +52,30 @@
   width: auto;
 }
 
+.dropdown-menu {
+  background-color: var(--pale-green) !important;
+  color: var(--dark-blue) !important;
+padding: 20px !important;
+text-align: center !important;
+}
+
+.navLinkDropdown:hover {
+  background-color: var(--dark-blue) !important;
+  color: var(--pale-green) !important;
+  border-radius: 20px;
+}
+
+#basicNavDropdown {
+  color: var(--pale-green) !important;
+  border-radius: 20px;
+}
+
+#basicNavDropdown:hover {
+  color: var(--dark-blue) !important;
+  background-color: var(--pale-green);
+  border-radius: 20px;
+}
+
 .webLinkButton {
   color: var(--pale-green) !important;
   background-color: var(--dark-blue) !important;
@@ -412,51 +436,8 @@ canvas {
 
 /* Blog Component */
 
-.blogCardContainer {
-  max-width: 450px;
-  display: flex;
-  justify-content: center;
-  border: solid 10px var(--dark-blue) !important;
-  margin: 10px auto;
-  border-radius: 50px;
-}
 
-.blogCardBody {
-  background-color: var(--pale-green);
-}
 
-.blogCardFooter {
-  background-color: var(--teal) !important;
-}
-
-.blogTitle {
-  font-size: 1.5em;
-}
-.blogDate {
-  font-size: 1em;
-}
-
-.blogButton {
-  display: flex;
-  text-align: center;
-  font-weight: bold;
-  font-size: 100%;
-  width: 40%;
-  border-radius: 20px;
-  background-color: var(--dark-blue) !important;
-  border: solid 10px var(--dark-blue) !important;
-}
-
-.blogButton:hover {
-  background-color: var(--pale-green) !important;
-  border: solid 10px var(--pale-green) !important;
-  color: var(--dark-blue) !important;
-}
-
-.blogLinkText {
-  font-size: 1em;
-  text-decoration: none;
-}
 
 /* Contact Me Component */
 

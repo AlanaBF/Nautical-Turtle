@@ -37,7 +37,7 @@ const Post2 = () => {
         </Card>
 
         <Modal dialogClassName="custom-modal-dialog" show={showModal} onHide={handleCloseModal}>
-          <Modal.Header closeButton>
+          <Modal.Header style={{backgroundColor:'#04bfbf', color:"#d8f2e3", fontFamily: "Handlee"}} closeButton>
             <Modal.Title>Journey to Landing my First Job in Tech</Modal.Title>
           </Modal.Header>
           <Modal.Body>
@@ -163,8 +163,8 @@ const Post2 = () => {
               </p>
             </blockquote>
           </Modal.Body>
-          <Modal.Footer>
-            <Button variant="secondary" onClick={handleCloseModal}>
+          <Modal.Footer style={{backgroundColor: '#04bfbf'}}>
+            <Button style={{backgroundColor: '#d8f2e3', border:'none', color:'#0388a6'}} variant="secondary" onClick={handleCloseModal}>
               Close
             </Button>
           </Modal.Footer>

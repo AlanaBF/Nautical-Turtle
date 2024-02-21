@@ -48,7 +48,7 @@ const Post3 = () => {
           show={showModal}
           onHide={handleCloseModal}
         >
-          <Modal.Header closeButton>
+          <Modal.Header style={{backgroundColor:'#04bfbf', color:"#d8f2e3", fontFamily: "Handlee"}} closeButton>
             <Modal.Title>
               {" "}
               My First week as an Associate Consultant with Version 1
@@ -151,8 +151,8 @@ const Post3 = () => {
               </p>
             </blockquote>
           </Modal.Body>
-          <Modal.Footer>
-            <Button variant="secondary" onClick={handleCloseModal}>
+          <Modal.Footer style={{backgroundColor: '#04bfbf'}}>
+            <Button style={{backgroundColor: '#d8f2e3', border:'none', color:'#0388a6'}} variant="secondary" onClick={handleCloseModal}>
               Close
             </Button>
           </Modal.Footer>

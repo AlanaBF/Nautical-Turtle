@@ -16,34 +16,39 @@ const Post1 = () => {
   return (
     <div className="pageBackground">
       <div className="blogPageLayout">
-      <Card className="blogCard">
-        <Card.Img
-          variant="top"
-          src="/IMG_7197.jpeg"
-        />
-        <Card.Body>
-          <Card.Title>A period of reflection and goal setting</Card.Title>
-          <Card.Subtitle>15/7/2023</Card.Subtitle>
-          <Card.Text>
-            Embarking on a career change often triggers deep reflection. In my
-            first week at the West Midlands Digital Skills Academy with
-            Version1, we were challenged to reflect and create goals, nurturing
-            a growth mindset. These reflections took me back to my childhood,
-            shaped by my parents' involvement in the Royal Air Force (RAF) and
-            my love for the Mallory Towers books by Enid Blyton. Those books
-            ignited a desire to attend boarding school, a place where routine,
-            structure, and freedom intertwined seamlessly. With my parents'
-            support and RAF subsidies, I embarked on an incredible adventure
-            that left an indelible mark on my life.
-          </Card.Text>
-          <Button className="blogReadMoreButton" variant="primary" onClick={handleShowModal}>
-            Read More
-          </Button>
-        </Card.Body>
-      </Card>
-</div>
-      <Modal dialogClassName="custom-modal-dialog" show={showModal} onHide={handleCloseModal}>
-        <Modal.Header closeButton>
+        <Card className="blogCard">
+          <Card.Img variant="top" src="/IMG_7197.jpeg" />
+          <Card.Body>
+            <Card.Title>A period of reflection and goal setting</Card.Title>
+            <Card.Subtitle>15/7/2023</Card.Subtitle>
+            <Card.Text>
+              Embarking on a career change often triggers deep reflection. In my
+              first week at the West Midlands Digital Skills Academy with
+              Version1, we were challenged to reflect and create goals,
+              nurturing a growth mindset. These reflections took me back to my
+              childhood, shaped by my parents' involvement in the Royal Air
+              Force (RAF) and my love for the Mallory Towers books by Enid
+              Blyton. Those books ignited a desire to attend boarding school, a
+              place where routine, structure, and freedom intertwined
+              seamlessly. With my parents' support and RAF subsidies, I embarked
+              on an incredible adventure that left an indelible mark on my life.
+            </Card.Text>
+            <Button
+              className="blogReadMoreButton"
+              variant="primary"
+              onClick={handleShowModal}
+            >
+              Read More
+            </Button>
+          </Card.Body>
+        </Card>
+      </div>
+      <Modal
+        dialogClassName="custom-modal-dialog"
+        show={showModal}
+        onHide={handleCloseModal}
+      >
+        <Modal.Header style={{backgroundColor:'#04bfbf', color:"#d8f2e3", fontFamily: "Handlee"}} closeButton>
           <Modal.Title>A period of reflection and goal setting</Modal.Title>
         </Modal.Header>
         <Modal.Body>
@@ -67,7 +72,6 @@ const Post1 = () => {
           <p>
             <em>Moffats School (AKA Kinlet Hall, nr Bewdley)</em>
           </p>
-
           <img
             src="/Redsong.jpg"
             alt="Eventing at Moreton Hall"
@@ -76,7 +80,6 @@ const Post1 = () => {
           <p>
             <em>Redsong and myself eventing at Moreton Hall, age 12</em>{" "}
           </p>
-
           <p>
             The boarding school experience not only provided structure and
             routine but also offered the freedom to express myself and be
@@ -94,7 +97,10 @@ const Post1 = () => {
             className="modalImages"
           />
           <p>
-            <em>My first Dorm as a 7 year old (I had the bottom bunk by the window)</em>{" "}
+            <em>
+              My first Dorm as a 7 year old (I had the bottom bunk by the
+              window)
+            </em>{" "}
           </p>
           <p>
             Beyond the daily routines, our boarding school nurtured a love for
@@ -151,7 +157,11 @@ const Post1 = () => {
             className="modalImages"
           />
           <p>
-            <em>An annual fishing competition I was lucky to be invited to. Pirate watch, sea sickness and the most amazing fish!... oh and a local TV interview!</em>{" "}
+            <em>
+              An annual fishing competition I was lucky to be invited to. Pirate
+              watch, sea sickness and the most amazing fish!... oh and a local
+              TV interview!
+            </em>{" "}
           </p>
           <p>
             Following my unforgettable Seychelles adventure, my journey led me
@@ -200,10 +210,11 @@ const Post1 = () => {
             src="/IMG_9493.jpeg"
             alt="The Eco Patch, Brannel School"
             className="modalImages"
-          />  <p>
+          />{" "}
+          <p>
             <em>The Eco Patch, Brannel School</em>
           </p>
-              <img
+          <img
             src="/IMG_4652.jpeg"
             alt="The Eco Patch, Brannel School"
             className="modalImages"
@@ -211,7 +222,6 @@ const Post1 = () => {
           <p>
             <em>The Eco Patch Classroom, Brannel School</em>
           </p>
-        
           <p>
             My discovery of web development has fueled my hunger for greater
             achievements. I’m raising the bar and have set my sights on bigger
@@ -237,11 +247,7 @@ const Post1 = () => {
             Join me as I continue this journey of reflection, growth, and
             setting ambitious goals. Dare to dream big!
           </p>
-          <img
-            src="/IMG_2281.JPG"
-            alt="My Dream"
-            className="modalImages"
-          />
+          <img src="/IMG_2281.JPG" alt="My Dream" className="modalImages" />
           <p>
             <em>My Dream</em>
           </p>
@@ -253,8 +259,8 @@ const Post1 = () => {
             <p>"Dream big and dare to fail." - Norman Vaughan</p>
           </blockquote>
         </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleCloseModal}>
+        <Modal.Footer style={{backgroundColor: '#04bfbf'}}>
+          <Button style={{backgroundColor: '#d8f2e3', border:'none', color:'#0388a6'}} variant="secondary" onClick={handleCloseModal}>
             Close
           </Button>
         </Modal.Footer>

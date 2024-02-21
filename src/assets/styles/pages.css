@@ -77,35 +77,13 @@
 }
 
 .custom-modal-dialog {
-  max-width: 1000px !important; /* Adjust the width as per your requirement */
+  max-width: 1000px !important; 
 }
 
 .modalImages {
   width: 40%;
   display: flex;
   margin: auto;
-}
-
-.blogPageTitle {
-  padding: 20px;
-}
-
-.backgroundBlogPicture {
-  background-image: url(../images/maldives.jpeg);
-  width: 98%;
-  margin: auto;
-  height: 300px;
-  background-position: center center;
-  padding-bottom: 100px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border: solid 10px var(--dark-blue);
-  border-radius: 40px;
-}
-
-.blogText {
-  font-size: 2em;
-  padding: 20px;
 }
 
 .blogCard {
