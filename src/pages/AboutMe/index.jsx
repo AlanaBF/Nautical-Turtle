@@ -4,10 +4,10 @@ import "../../assets/styles/pages.css";
 function AboutMe() {
   return (
     <div className="pageBackground">
-      <div>
-        <h1 className="homePageTitle">About Me</h1>
-      </div>
-    <About/>
+         <br/>
+         <br/>
+             <h1 className="homePageTitle">About Me</h1>
+        <About/>
     </div>
   );
 }

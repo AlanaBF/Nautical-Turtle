@@ -1,11 +1,11 @@
 #root {
   text-align: center;
-  --dark-blue: #0388a6;
-  --dark-teal: #0396a6;
-  --teal: #04bfbf;
+  --dark-blue: #02528D;
+  --dark-teal: #4E828F;
+  --teal: #1FBFCA;
   --green: #9cd9b6;
-  --pale-green: #d8f2e3;
-  --cream: #e6ddc4;
+  --pale-green: #A2E4EF;
+  --cream: #FDFCE8;
   height: 100vh;
   font-family: "Handlee", cursive;
 }

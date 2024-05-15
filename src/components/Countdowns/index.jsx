@@ -71,7 +71,7 @@ const Timer = ({ initialTime, label }) => {
   };
 
   return (
-    <div className="timer">
+    <div className="timer" style={{backgroundColor:"var(--dark-blue)", padding:"50px", margin: "50px", border: "solid 20px var(--teal)", borderRadius: "50px"}}>
       <h2>{label}</h2>
       <div className="display">
         <h1 className="display__time-left">{timeLeft || ""}</h1>

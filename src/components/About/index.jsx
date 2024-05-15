@@ -6,12 +6,12 @@ function About() {
   return (
     <div>
       <div className="aboutContainer">
-        <div className="aboutCard">
+        <div className="aboutCard" style={{padding: "50px"}}>
           <div>
             <img src={profilePic} className="profilePic" alt="ABF profilePic" />
           </div>
           <br />
-          <div className="intro-container">
+          <div className="intro-container" style={{border:"solid 20px var(--dark-blue)", borderRadius:"50px"}}>
             <h2 className="sectionHeader">About Me</h2>{" "}
             <p>
               Ahoy! I'm Alana, a spirited explorer on an epic quest to uncover

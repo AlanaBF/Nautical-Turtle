@@ -18,6 +18,15 @@ function MyWebsites() {
       <a href="https://www.kernowpets.com" target="_blank" rel="noopener noreferrer">
         <button className="website-button-kernow"><img className="website-image" src={Kernow}></img>Kernow Pets Reptile Specialist</button>
       </a>
+      {/* <a href="https://www.kernowpets.com" target="_blank" rel="noopener noreferrer">
+        <button className="website-button-kernow"><img className="website-image" src={Kernow}></img>Kernow Pets Reptile Specialist</button>
+      </a>
+      <a href="https://www.kernowpets.com" target="_blank" rel="noopener noreferrer">
+        <button className="website-button-kernow"><img className="website-image" src={Kernow}></img>Kernow Pets Reptile Specialist</button>
+      </a>
+      <a href="https://www.kernowpets.com" target="_blank" rel="noopener noreferrer">
+        <button className="website-button-kernow"><img className="website-image" src={Kernow}></img>Kernow Pets Reptile Specialist</button>
+      </a> */}
     </div>
   );
 }

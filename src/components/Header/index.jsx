@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { LinkContainer } from "react-router-bootstrap";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import favicon from "../../assets/favicon/android-chrome-512x512.png";
+import logo from "../../assets/branding/plainLogo.png";
 import "../../assets/styles/components.css";
 
 function Header() {
@@ -15,7 +15,7 @@ function Header() {
     >
       <LinkContainer to="/">
         <Navbar.Brand className="navbarBrand">
-          <img src={favicon} alt="logo" height="60px" />
+          <img src={logo} alt="logo" height="100px" />
         </Navbar.Brand>
       </LinkContainer>
 
@@ -28,9 +28,13 @@ function Header() {
           <LinkContainer to="/">
             <Nav.Link className="navLink">Home</Nav.Link>
           </LinkContainer>
+             {/* About Me Page
+             <LinkContainer to="/AboutMe">
+            <Nav.Link className="navLink">About Me</Nav.Link>
+          </LinkContainer> */}
           {/* Fun Page */}
           <LinkContainer to="/Fun">
-            <Nav.Link className="navLink">Fun Page</Nav.Link>
+            <Nav.Link className="navLink">Turtly Helpful Page</Nav.Link>
           </LinkContainer>
           {/* Blog Dropdown */}
           <NavDropdown
@@ -73,15 +77,38 @@ function Header() {
 
         <Nav className="nav navbar-nav flex-row justify-content-md-center justify-content-start flex-nowrap">
           <div className="navIcons">
-            {/* <a href="https://twitter.com/AlanaBF81">
-              <i className="fa navbarIcons fa-twitter"></i>
-            </a> */}
-            <a href="https://github.com/AlanaBF">
-              <i className="fa navbarIcons fa-github"></i>
-            </a>{" "}
-            <a href="https://www.linkedin.com/in/alanabarrettfrew/">
-              <i className="fa navbarIcons fa-linkedin"></i>
-            </a>
+                   <a
+          href="https://www.instagram.com/teacherturnsturtle81/"
+          aria-label="Instagram"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fa fa-instagram navbarIcons" aria-hidden="true"></i>
+        </a>
+        <a
+          href="https://github.com/AlanaBF"
+          aria-label="GitHub"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fa fa-github navbarIcons" aria-hidden="true"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/alanabarrettfrew"
+          aria-label="LinkedIn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fa fa-linkedin navbarIcons" aria-hidden="true"></i>
+        </a>
+        <a
+          href="https://medium.com/@alana.barrettfrew"
+          aria-label="Medium"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fa fa-medium navbarIcons" aria-hidden="true"></i>
+        </a>
           </div>
         </Nav>
       </Navbar.Collapse>
