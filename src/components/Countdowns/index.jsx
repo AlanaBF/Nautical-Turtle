@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import "../../assets/styles/pages.css";
+import PomodoroButton from "./PomodoroTimer";
 
 const Timer = ({ initialTime, label }) => {
   const [timeLeft, setTimeLeft] = useState(initialTime);
@@ -71,43 +73,65 @@ const Timer = ({ initialTime, label }) => {
   };
 
   return (
-    <div className="timer" style={{backgroundColor:"var(--dark-blue)", padding:"50px", margin: "50px", border: "solid 20px var(--teal)", borderRadius: "50px"}}>
+    <div
+      className="timer"
+      style={{
+        backgroundColor: "var(--dark-blue)",
+        padding: "50px",
+        margin: "50px",
+        border: "solid 20px var(--teal)",
+        borderRadius: "50px",
+      }}
+    >
       <h2>{label}</h2>
       <div className="display">
         <h1 className="display__time-left">{timeLeft || ""}</h1>
         <p className="display__end-time">{endTime || "Select a Timer"}</p>
       </div>
-      <div className="timer__controls">
+      <div className="timer-controls">
+        <PomodoroButton onClick={() => handleTimerButtonClick(1500)} />
+
         <button
           data-time="300"
-          className="timer__button"
+          className="timer-button"
           onClick={() => handleTimerButtonClick(300)}
         >
-          Eye Break
+          5 Minute Eye Break
         </button>
         <button
           data-time="1200"
-          className="timer__button"
+          className="timer-button"
           onClick={() => handleTimerButtonClick(1200)}
         >
-          Break
+          20 Minute Break
         </button>
         <button
           data-time="3600"
-          className="timer__button"
+          className="timer-button"
           onClick={() => handleTimerButtonClick(3600)}
         >
-          Lunch
+          1 Hour Lunch Break
         </button>
         <form name="customForm" onSubmit={handleSubmit}>
-          <input type="text" name="minutes" placeholder="Enter Minutes" />
+          <input
+            style={{
+              backgroundColor: "var(--dark-blue)",
+              color: "var(--teal)",
+              border: "solid 5px var(--teal)",
+              borderRadius: "50px",
+              padding: "20px",
+            }}
+            type="text"
+            name="minutes"
+            placeholder="Enter Minutes"
+          />
         </form>
 
-        <button className="timer__button" onClick={pauseTimer}>
+        <button className="timer-button" onClick={pauseTimer}>
           Stop
         </button>
 
-        <button className="timer__button" onClick={resetTimer}>
+        <button className="timer-button" onClick={resetTimer}>
           Reset
         </button>
       </div>

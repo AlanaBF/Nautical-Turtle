@@ -18,6 +18,12 @@
   color: var(--pale-green);
 }
 
+.turtleImg {
+  width: 30%;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
 .googleSearchContainer {
   background-color: var(--dark-blue);
   border-radius: 30px;
@@ -25,11 +31,29 @@
   margin: 20px;
 }
 
-.turtleImg {
-  width: 30%;
-  border-radius: 50px;
-  margin-top: 20px;
+/* Turtly Helful Page */
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--teal);
+  opacity: 1; /* Firefox */
 }
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: var(--teal);
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: var(--teal);
+}
+
+.timer-button {
+  background-color: var(--teal);
+  border: solid 10px var(--dark-blue);
+  border-radius: 20px;
+  margin: 20px;
+padding: 20px;
+}
+
 /* About Me Page */
 
 .profilePic {
